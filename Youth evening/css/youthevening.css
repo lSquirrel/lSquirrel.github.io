@@ -1,0 +1,17 @@
+
+h3{
+	text-align:center;
+}
+p{
+	text-align: center;
+}
+#song2{
+	background-image:url(../img/isfit.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	color:white;
+}
+#song4{
+	background-image:url(../img/bestsinger.jpg);
+	color:white;
+}
