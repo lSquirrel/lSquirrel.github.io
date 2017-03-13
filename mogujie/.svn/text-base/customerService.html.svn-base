@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>蘑菇街-我的买手街</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/customerService.css"/>
+		<link rel="stylesheet" type="text/css" href="css/RightAndTop.css"/>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<script src="js/$.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--右侧边栏-->
+		<div id="rightbar">
+			<div class="slideBar_item_img">
+				<a class="slideBar_itema" href="http://www.mogujie.com/member?ptp=1.ii9Gy._sidebar.0.PW6BO">
+					<img src="img/shoppingCart/head.jpg" width="20px" height="20px" class="userhead"/>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="shoppingCart.html" target="_blank" class="slideBar_itema">
+					<i class="bar_icons gouwu"></i>
+					<div class="bar_text">购物车</div>
+					<div class="num slideBar_num">4</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="#" class="slideBar_itema">
+					<i class="bar_icons youhuijuan"></i>
+					<div class="bar_text">优惠券</div>
+					<div class="slideBar_num">2</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="purse.html" target="_blank" class="slideBar_itema">
+					<i class="bar_icons qianbao"></i>
+					<div class="bar_text">钱包</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="footprint.html" target="_blank" class="slideBar_itema">
+					<i class="bar_icons zuji"></i>
+					<div class="bar_text">足迹</div>
+				</a>
+			</div>
+			<div class="slideBottom">
+				<a href="javascript:;" class="slideBar_itema">
+					<i class="bar_icons totop"></i>
+				</a>
+			</div>
+			<script type="text/javascript" src="js/rightBar.js"></script>
+		</div>
+		<!--导航栏-->
+		<div id="header" class="wrapall">
+			<div class="wrap width">
+				<a href="index.html" target="_blank" class="home lt" >蘑菇街首页</a>
+				<ul class="header_top rt">
+					<li id="userName" class="navli"><a href="">用户名</a><b class="icon_delta"></b></li>
+					<li id="message" class="has_line"><a href="">消息</a></li>
+					<li id="myCollect" class="has_line navli"><a href="javascript:;">我的收藏</a><b class="icon_delta"></b></li>
+					<li id="myOrder" class="has_line"><a href="myOrder.html" target="_blank"><b class="myOrder forward"></b>我的订单</a></li>
+					<li id="shopping" class="has_line navli"><a href="shoppingCart.html" target="_blank"><b class="shopping forward"></b>购物车</a><span class="num">4</span>件</li>
+					<li id="customerSevice" class="has_line navli"><a href="customerService.html" tabindex="
+						">客户服务</a><b class="icon_delta"></b></li>
+					<li id="myStore" class="has_line mystore navli"><a href=""><b class="myStore forward"></b>我的小店</a></li>
+				</li>
+			</div>
+		</div>
+		<ul id="userName_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="accountSet.html" target="_blank">个人设置</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/settings/bind" target="_blank">账号绑定</a></li>
+			<li class="lihover"><a href="load.html" target="_blank">退出</a></li>
+		</ul>
+		<ul id="myCollect_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.mogujie.com/active/favs" target="_blank">收藏的商品</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/active/shopfavs" target="_blank">收藏的小店</a></li>
+			<li class="lihover"><a href="footprint.html" target="_blank">浏览足迹</a></li>
+		</ul>
+		<div id="shopping_child" class="nav_child">
+			<ul>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods1_48x48.jpg"  alt="2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="underline title lt">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+					<span class="price rt">￥29.9</span>
+					<span class="info lt">颜色：纯黑色&nbsp;尺码：均码</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods1_48x48.jpg"  alt="2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="underline title lt">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+					<span class="price rt">￥29.9</span>
+					<span class="info lt">颜色：纯黑色&nbsp;尺码：均码</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods2_48x48.jpg"  alt="2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="underline title lt">2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙</a>
+					<span class="price rt">￥119.7</span>
+					<span class="info lt">颜色：黑色&nbsp;尺码：M</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods3_48x48.jpg"  alt="冬季新款  韩版时尚修身气质仿貉子大毛领短款加厚保暖棉服" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="underline title lt">冬季新款  韩版时尚修身气质仿貉子大毛领短款加厚保暖棉服</a>
+					<span class="price rt">￥49.91</span>
+					<span class="info lt">颜色：白色&nbsp;尺码：M</span>
+					<span class="del rt">删除</span>
+				</li>
+			</ul>
+			<div class="gotoCart">
+				<a href="shoppingCart.html" target="_blank" class="underline">查看购物车</a>
+			</div>
+		</div>
+		<ul id="customerSevice_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.mogujie.com/help" target="_blank">消费者服务</a></li>
+			<li class="lihover"><a href="http://service.xiaodian.com" target="_blank">商家服务</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/rule/index" target="_blank">规则中心</a></li>
+		</ul>
+		<ul id="myStore_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.xiaodian.com/pc/shopadmin/shopface" target="_blank">管理后台</a></li>
+			<li class="lihover"><a href="http://bbs.xiaodian.com" target="_blank">商家社区</a></li>
+			<li class="lihover"><a href="http://peixun.xiaodian.com" target="_blank">商家培训</a></li>
+			<li class="lihover"><a href="http://www.xiaodian.com/pc/joinmarket" target="_blank">市场入驻</a></li>
+		</ul>
+		<header>
+			<div id="header_con" class="width">
+				<div id="header_con_logo">
+					<a href=""><img src="img/customerService/logo_service.png"/></a>
+				</div>
+				<div id="header_con_list">
+					<ul>
+						<li><a href="" class="header_click">首页</a></li>
+						<li><a href="">常见问题</a></li>
+						<li><a href="">自助服务</a></li>
+						<li><a href="">联系客服</a></li>
+					</ul>
+				</div>
+				<div id="header_con_search">
+					
+				</div>
+			</div>
+		</header>
+		<div id="container">
+			<div id="content" class="width">
+				<div id="content_1" class="content">
+					<span>快捷搜索</span>
+					<input type="text" name="problemSearch" id="problemSearch" value="" placeholder="简要描述您遇到的问题" />
+					<button>
+						<img src="img/customerService/search_11x14.png"/>
+						<b>搜索</b>
+					</button>
+					<div id="con1_hotsearch">
+						热门搜索：
+						<a href="/help/faqlist?id=313&con=commonproblem">退款查询</a>
+						<a href="/help/faqlist?id=313&con=commonproblem">售后流程</a>
+						<a href="/help/faqlist?id=313&con=commonproblem">支付问题</a>
+						<a href="/help/faqlist?id=313&con=commonproblem">手机号更换</a>
+						<a href="/help/faqlist?id=313&con=commonproblem">白付美</a>
+						<a href="/help/faqlist?id=313&con=commonproblem">退货运费补贴</a>
+					</div>
+				</div>
+				<div id="content_2">
+					<div id="con2_hot" class="con2 content">
+						<span>热门问题</span>
+						<div class="con2_hot">
+							<div class="hot_title">
+								<ul>
+									<li class="hot_title_hover">购买问题</li>
+									<li>退款/付款</li>
+									<li>售后规则</li>
+									<li>账户资产</li>
+									<li>账户设置</li>
+								</ul>
+							</div>
+							<div class="hot_con">
+								<div class="hot_con_hover">
+									<ul>
+										<li><a href="" title="下单后没有查到订单信息？">-下单后没有查到订单信息？</a></li>
+										<li><a href="" title="购买蘑菇街的商品多久能发货？">-购买蘑菇街的商品多久能发货？</a></li>
+										<li><a href="" title="收货地址/收货人手机号填写错误如何修改？">-收货地址/收货人手机号填写错误如何修改？</a></li>
+										<li><a href="" title="订单马上就要确认收货了，商品还没有收到怎么办？">-订单马上就要确认收货了，商品还没...</a></li>
+										<li><a href="" title="购物车内最多加入多少商品？">-购物车内最多加入多少商品？</a></li>
+										<li><a href="" title="商品加入购物车成功，但购物车内不显示">-商品加入购物车成功，但购物车内不...</a></li>
+										<li><a href="" title="如何购买商品？">-如何购买商品？</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul>
+										<li><a href="" title=" 为什么订单显示退款完成但是钱没收到？">- 为什么订单显示退款完成但是钱没...</a></li>
+										<li><a href="" title="忘记了支付密码怎么办？">-忘记了支付密码怎么办？</a></li>
+										<li><a href="" title="付款时接收验证码的手机号已经不用了怎么办？">-付款时接收验证码的手机号已经不用...</a></li>
+										<li><a href="" title="提示支付成功，并且银行卡已扣款，但订单还显示未支付怎么办？">-提示支付成功，并且银行卡已扣款，...</a></li>
+										<li><a href="" title="银行卡支付绑定银行卡如何删除？">-银行卡支付绑定银行卡如何删除？</a></li>
+										<li><a href="" title="钱包账户中有余额，但是付款的时候...">-钱包账户中有余额，但是付款的时候...</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul>
+										<li><a href="" title="如何申请退货/退款？">-如何申请退货/退款？</a></li>
+										<li><a href="" title="申请退货/退款有时间规定吗？">-申请退货/退款有时间规定吗？</a></li>
+										<li><a href="" title="已提交退货/退款申请，如何查看进度？">-已提交退货/退款申请，如何查看进...</a></li>
+										<li><a href="" title="购买的商品有问题，但卖家拒绝退货怎么办？">-购买的商品有问题，但卖家拒绝退货...</a></li>
+										<li><a href="" title="申请维权后多久能处理？">-申请维权后多久能处理？</a></li>
+										<li><a href="" title="商品有质量问题，需要提供什么凭证证明？">-商品有质量问题，需要提供什么凭证...</a></li>
+										<li><a href="" title="卖家一直不处理我的问题，态度很差，如何投诉？">-卖家一直不处理我的问题，态度很差...</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul>
+										<li><a href="" title="钱包提现多久能到账？">-钱包提现多久能到账？</a></li>
+										<li><a href="" title="开通“白付美”显示一直在审核中怎么办？">-开通“白付美”显示一直在审核中怎...</a></li>
+										<li><a href="" title="理财收益一直显示在路上是为什么？">-理财收益一直显示在路上是为什么？</a></li>
+										<li><a href="" title="如何提升账户安全值？">-如何提升账户安全值？</a></li>
+										<li><a href="" title="“白付美”逾期未还款怎么办？">-“白付美”逾期未还款怎么办？</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul>
+										<li><a href="" title="如何注册蘑菇街账号？">-如何注册蘑菇街账号？</a></li>
+										<li><a href="" title="蘑菇街有哪些登录方式？">-蘑菇街有哪些登录方式？</a></li>
+										<li><a href="" title="为什么在登录时需要短信验证？验证的手机号不用了怎么办？ ">-为什么在登录时需要短信验证？验证... </a></li>
+										<li><a href="" title="忘记登录密码了怎么办？">-忘记登录密码了怎么办？</a></li>
+										<li><a href="" title="如何修改账号绑定的手机号？原绑定手机号不用了怎么办？">-如何修改账号绑定的手机号？原绑定...</a></li>
+										<li><a href="" title="如何解绑第三方账号？">-如何解绑第三方账号？</a></li>
+										<li><a href="" title="如何修改账号密码？">-如何修改账号密码？</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="con2_new" class="con2 content">
+						<span>最新公告</span>
+						<ul>
+							<li><a href="" title="客户端900版本（当前最新版本）功能变更">客户端900版本（当前最新版本）功能变更</a></li>							
+							<li><a href="" title="关于“取消腾讯微博、人人网、一账通等第三方登录方式”公告">关于“取消腾讯微博、人人网、一账通等第三...</a></li>							
+							<li><a href="" title="购物车商品数量限制变更公告">购物车商品数量限制变更公告</a></li>							
+							<li><a href="" title="退货补运费服务变更公告">退货补运费服务变更公告</a></li>							
+							<li><a href="" title="“买呗”更名为“白付美”">“买呗”更名为“白付美”</a></li>							
+						</ul>
+					</div>
+				</div>
+				<div id="content_3" class="content">
+					<span>常用自助服务</span>
+					<ul>
+						<li><a href="">
+							<i class="iconlist1"></i>
+							<p>订单查询</p>
+						</a></li>
+						<li><a href="">
+							<i class="iconlist2"></i>
+							<p>退款查询</p>
+						</a></li>
+						<li><a href="">
+							<i class="iconlist3"></i>
+							<p>维权管理</p>
+						</a></li>
+						<li><a href="">
+							<i class="iconlist4"></i>
+							<p>我的现金券</p>
+						</a></li>
+						<li><a href="">
+							<i class="iconlist5"></i>
+							<p>手机绑定</p>
+						</a></li>
+						<li><a href="">
+							<i class="iconlist6"></i>
+							<p>修改密码</p>
+						</a></li>
+						<li><a href="">
+							<i class="iconlist7"></i>
+							<p>魔豆查询</p>
+						</a></li>
+						<li><a href="">
+							<i class="iconlist8"></i>
+							<p>账号申诉</p>
+						</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--foot部分-->
+		<div id="footer">
+			<div id="footer_top" class="foot_width">
+				<ul>
+					<li id="footer_top_left">
+						<img src="img/index/logo_152x38.png" />
+						<div>营业执照注册号：<a href="">330106000129004</a><br />
+							增值电信业务经营许可证：<a href="">浙B2-20110349</a><br />
+							网络文化经营许可证：<a href="">浙网文（2016）0349-219号</a><br />
+							<a href="">安全责任书</a></div>
+						<div><a href=""><img src="http://s18.mogucdn.com/p1/160428/upload_ifrgemjwgq3gemzthazdambqmeyde_20x20.png" />浙公网安备 33010602002329号</a><br />
+         					©2016 Mogujie.com 杭州卷瓜网络有限公司</div>
+					</li>
+					<li class="footer_top_center">
+						<ul>
+							<li>公司</li>
+							<li><a href="">关于我们</a></li>
+							<li><a href="">招聘信息</a></li>
+							<li><a href="">联系我们</a></li>
+						</ul>
+					</li>
+					<li class="footer_top_center">
+						<ul>
+							<li>消费者</li>
+							<li><a href="">消费者服务</a></li>
+							<li><a href="">意见反馈</a></li>
+							<li><a href="">手机版下载</a></li>
+						</ul>
+					</li>
+					<li class="footer_top_center">
+						<ul>
+							<li>商家</li>
+							<li><a href="">商家入驻</a></li>
+							<li><a href="">商家后台</a></li>
+							<li><a href="">蘑菇商学院</a></li>
+							<li><a href="">商家社区</a></li>
+						</ul>
+					</li>
+					<li id="footer_top_right">
+						<a href=""><div>权威认证</div></a>
+						<a href=""><img src="img/index/footerpingan.png" /></a>
+						<a href=""><img src="img/index/footerkexin.png" /></a>
+					</li>
+				</ul>
+			</div>
+			<div id="footer_bottom" class="foot_width">
+				<ul>
+					<li>友情链接:</li>
+					<li><a href="">蘑菇街游戏</a></li>
+					<li><a href="">淘粉吧</a></li>
+					<li><a href="">穿衣搭配</a></li>
+					<li><a href="">蘑菇街男装</a></li>
+					<li><a href="">蘑菇街鞋子</a></li>
+					<li><a href="">蘑菇街泡泡</a></li>
+					<li><a href="">QQ钱包</a></li>
+					<li><a href="">家居网</a></li>
+					<li><a href="">时尚品牌网</a></li>
+					<li><a href="">装修</a></li>
+					<li><a href="">蘑菇街母婴</a></li>
+					<li><a href="">衣联网</a></li>
+					<li><a href="">播视网视频</a></li>
+					<li><a href="">慧聪网</a></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			window.onload=function(){
+				//获得title
+				var lihover=document.getElementsByClassName("hot_title")[0].getElementsByTagName("li");
+				//获得内容
+				var divhover=document.getElementsByClassName("hot_con")[0].getElementsByTagName("div");
+				//定义计数器
+				var num=0;
+				for(var i=0;i<lihover.length;i++){
+					lihover[i].index=i;
+					lihover[i].onmouseover=function(){
+						lihover[num].className="";
+						divhover[num].className="";
+						lihover[this.index].className="hot_title_hover";
+						divhover[this.index].className="hot_con_hover";
+						num=this.index;
+					}
+				}
+			}
+		</script>
+		<script src="js/rightBar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/topNav.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
+

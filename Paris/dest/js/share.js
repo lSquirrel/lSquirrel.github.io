@@ -1,0 +1,1 @@
+$(function(){var e=0;$(".header_menu").click(function(){0===e?($(".header_menu img").attr("src","img/nav_close1.png"),e=1,$("aside").slideDown(300)):($(".header_menu img").attr("src","img/nav_menu1.png"),e=0,$("aside").fadeOut(300))})});

@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>订单列表_蘑菇街</title>
+		<script src="js/$.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myOrder.css"/>
+		<link rel="stylesheet" type="text/css" href="css/RightAndTop.css" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<div id="rightbar">
+			<div class="slideBar_item_img">
+				<a class="slideBar_itema" href="http://www.mogujie.com/member?ptp=1.ii9Gy._sidebar.0.PW6BO">
+					<img src="img/shoppingCart/head.jpg" width="20px" height="20px" class="userhead"/>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="shoppingCart.html" target="_blank" class="slideBar_itema">
+					<i class="bar_icons gouwu"></i>
+					<div class="bar_text">购物车</div>
+					<div class="num slideBar_num">4</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="#" class="slideBar_itema">
+					<i class="bar_icons youhuijuan"></i>
+					<div class="bar_text">优惠券</div>
+					<div class="slideBar_num">2</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="purse.html" target="_blank" class="slideBar_itema">
+					<i class="bar_icons qianbao"></i>
+					<div class="bar_text">钱包</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="footprint.html" target="_blank" class="slideBar_itema">
+					<i class="bar_icons zuji"></i>
+					<div class="bar_text">足迹</div>
+				</a>
+			</div>
+			<div class="slideBottom">
+				<a href="javascript:;" class="slideBar_itema">
+					<i class="bar_icons totop"></i>
+				</a>
+			</div>
+			<script type="text/javascript" src="js/rightBar.js"></script>
+		</div>
+		
+		<div id="header" class="wrapall">
+			<div class="wrap">
+				<a href="index.html" target="_blank" class="home lt" >蘑菇街首页</a>
+				<ul class="header_top rt">
+					<li id="userName" class="navli"><a href="">用户名</a><b class="icon_delta"></b></li>
+					<li id="message" class="has_line"><a href="">消息</a></li>
+					<li id="myCollect" class="has_line navli"><a href="javascript:;">我的收藏</a><b class="icon_delta"></b></li>
+					<li id="myOrder" class="has_line"><a href="myOrder.html" target="_blank"><b class="myOrder forward"></b>我的订单</a></li>
+					<li id="shopping" class="has_line navli"><a href="shoppingCart.html" target="_blank"><b class="shopping forward"></b>购物车</a><span class="num">4</span>件</li>
+					<li id="customerSevice" class="has_line navli"><a href="customerService.html" target="_blank">客户服务</a><b class="icon_delta"></b></li>
+					<li id="myStore" class="has_line mystore navli"><a href=""><b class="myStore forward"></b>我的小店</a></li>
+				</li>
+			</div>
+		</div>
+		<ul id="userName_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="accountSet.html" target="_blank">个人设置</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/settings/bind" target="_blank">账号绑定</a></li>
+			<li class="lihover"><a href="load.html" target="_blank">退出</a></li>
+		</ul>
+		<ul id="myCollect_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.mogujie.com/active/favs" target="_blank">收藏的商品</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/active/shopfavs" target="_blank">收藏的小店</a></li>
+			<li class="lihover"><a href="footprint.html" target="_blank">浏览足迹</a></li>
+		</ul>
+		<div id="shopping_child" class="nav_child">
+			<ul>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods1_48x48.jpg"  alt="2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="underline title lt">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+					<span class="price rt">￥29.9</span>
+					<span class="info lt">颜色：纯黑色&nbsp;尺码：均码</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods1_48x48.jpg"  alt="2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="underline title lt">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+					<span class="price rt">￥29.9</span>
+					<span class="info lt">颜色：纯黑色&nbsp;尺码：均码</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods2_48x48.jpg"  alt="2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="underline title lt">2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙</a>
+					<span class="price rt">￥119.7</span>
+					<span class="info lt">颜色：黑色&nbsp;尺码：M</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods3_48x48.jpg"  alt="冬季新款  韩版时尚修身气质仿貉子大毛领短款加厚保暖棉服" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="underline title lt">冬季新款  韩版时尚修身气质仿貉子大毛领短款加厚保暖棉服</a>
+					<span class="price rt">￥49.91</span>
+					<span class="info lt">颜色：白色&nbsp;尺码：M</span>
+					<span class="del rt">删除</span>
+				</li>
+			</ul>
+			<div class="gotoCart">
+				<a href="shoppingCart.html" target="_blank" class="underline">查看购物车</a>
+			</div>
+		</div>
+		<ul id="customerSevice_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.mogujie.com/help" target="_blank">消费者服务</a></li>
+			<li class="lihover"><a href="http://service.xiaodian.com" target="_blank">商家服务</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/rule/index" target="_blank">规则中心</a></li>
+		</ul>
+		<ul id="myStore_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.xiaodian.com/pc/shopadmin/shopface" target="_blank">管理后台</a></li>
+			<li class="lihover"><a href="http://bbs.xiaodian.com" target="_blank">商家社区</a></li>
+			<li class="lihover"><a href="http://peixun.xiaodian.com" target="_blank">商家培训</a></li>
+			<li class="lihover"><a href="http://www.xiaodian.com/pc/joinmarket" target="_blank">市场入驻</a></li>
+		</ul>
+		<script type="text/javascript" src="js/topNav.js"></script>
+		
+		<div id="search" class="clear">
+			<div class="width">
+				<a href="" title="蘑菇街首页"><img src="img/index/logo.png"/></a>
+				<div class="searchBox">
+					<div class="seaBoxBox clear">
+						<div>
+							<span id="seaCommodity">搜商品</span>
+							<ol>
+								<li><a href="">商品</a></li>
+								<li><a href="">店铺</a></li>
+							</ol>
+						</div>
+						<form action="" method="get">
+							<input type="text" name="seaTxt" id="seaTxt" value="" />
+							<input type="submit" name="seaSub" id="seaSub" value="" />
+						</form>
+					</div>
+					<div class="seaBoxUl">
+						<a href="">秋季连衣裙</a>
+						<a href="">小白鞋</a>
+						<a href="">长袖T恤</a>
+						<a href="">牛仔裤</a>
+						<a href="">卫衣</a>
+						<a href="">斜挎包</a>
+						<a href="">打底裤</a>
+						<a href="">短靴</a>
+						<a href="">秋季外套</a>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$(".seaBoxBox")[0].getElementsByTagName("div")[0].onmouseover=function(){
+						olMouse("block");
+					}
+					$(".seaBoxBox")[0].getElementsByTagName("div")[0].onmouseout=function(){
+						olMouse("none");
+					}
+					function olMouse(display){
+						$(".seaBoxBox")[0].getElementsByTagName("ol")[0].style.display=display;
+					}
+				</script>
+				<div class="twoCode">
+					<img src="img/accountSet/acc_twoCode_280x280.png" title="扫我吧"/>
+				</div>
+			</div>
+		</div>
+		<div id="container" class="width clear">
+			<div class="con_left">
+				<div class="cl_nav_info">
+					<div class="cl_nav_info_avatar">
+						<div class="cl_nav_info_avatar_mk"></div>
+						<img src="img/purse/purseHead.jpg" width="100px" height="100px"/>
+					</div>
+					<p>用户名</p>
+				</div>
+				<div class="cl_nav  clickTitle">
+					<div class="cl_title has_sma_nav">
+						我的订单
+					</div>
+					<ul class="cl_nav_item">
+						<li><a href=""  class="thisPage">全部订单</a></li>
+						<li><a href="">待付款<i></i></a></li>
+						<li><a href="">待收货<i>2</i></a></li>
+						<li><a href="">待评价<i>2</i></a></li>
+						<li><a href="">退货退款<i></i></a></li>
+						<li><a href="">订单回收站<i></i></a></li>
+					</ul>
+				</div>
+				<div class="cl_nav">
+					<div class="cl_title">
+						<a href="">我的钱包</a>
+					</div>
+				</div>
+				<div class="cl_nav">
+					<div class="cl_title">
+						<a href="">我的理财</a>
+					</div>
+				</div>
+				<div class="cl_nav">
+					<div class="cl_title has_sma_nav">
+						优惠特权
+					</div>
+					<ul class="cl_nav_item">
+						<li><a href="">钻石会员</a></li>
+						<li><a href="">我的魔豆</a></li>
+						<li><a href="">店铺优惠券</a></li>
+						<li><a href="">现金券</a></li>
+					</ul>
+				</div>
+				<div class="cl_nav">
+					<div class="cl_title">
+						<a href="">地址管理</a>
+					</div>
+				</div>
+				<div class="cl_nav">
+					<div class="cl_title has_sma_nav">
+						安全设置
+					</div>
+					<ul class="cl_nav_item">
+						<li><a href="">设置密码</a></li>
+						<li><a href="">绑定手机</a></li>
+						<li><a href="">数字认证</a></li>
+					</ul>
+				</div>
+				<div class="cl_nav">
+					<div class="cl_title has_sma_nav">
+						维权管理
+					</div>
+					<ul class="cl_nav_item">
+						<li><a href="">投诉管理</a></li>
+						<li><a href="">举报管理</a></li>
+					</ul>
+				</div>
+				<div class="cl_nav">
+					<div class="cl_title has_sma_nav">
+						账号设置
+					</div>
+					<ul class="cl_nav_item">
+						<li><a href="">基本信息</a></li>
+						<li><a href="">修改头像</a></li>
+					</ul>
+				</div>
+			</div>
+			<!--container左边title部分的打开和收起-->
+			<!--默认当前页面的cl_nav标签有clickTitle,当点击某title时，添加clickTitle,再次点击取消clickTitle-->
+			<script type="text/javascript">
+				window.onload=function(){
+//					获得可以展开的Titlediv
+					var clTitles=$(".has_sma_nav");
+//					使用循环给每个div添加点击事件
+					for(var i=0;i<clTitles.length;i++){
+						clTitles[i].index=i;
+						clTitles[i].onclick=function(){
+							clTitle(this.index);	
+						}
+					}
+//					点击后需要执行的函数
+					function clTitle(num){
+						var thisClNav=clTitles[num];
+//						判断当前Titlediv的父标签是否具有属性clickTitle 
+						var hasClickTitle=thisClNav.parentNode.className.indexOf("clickTitle");
+						if(hasClickTitle>-1){
+							thisClNav.parentNode.className=thisClNav.parentNode.className.replace("clickTitle","");
+						}else{
+							thisClNav.parentNode.className+=" clickTitle";
+						}
+					}
+				}
+			</script>
+			<div class="con_right">
+				<div class="con_right_box">
+					<ul class="order_title">
+						<li class="goods">商品</li>
+						<li class="price">单价(元)</li>
+						<li class="quantity">数量</li>
+						<li class="aftersale">售后</li>
+						<li class="total">实付款(元)</li>
+						<li class="status">交易状态</li>
+						<li class="other">操作</li>
+					</ul>
+					<div class="order_list">
+						<div class="order_section finished">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 30884093487533</span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-11-12 19:43:21 </span>
+												<a class="shop_name" href="">店铺名：<span>小娜子</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic1_640x640.png" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">秋冬季新款韩版学院风中长款复古套头高领女宽松毛衣</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：米粉色</p>
+												<p>尺码：S</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/zhibao_25x24.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">劣一赔三服务</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">97.14</p>
+											<p>67.99</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">退款/退货</a>
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥59.99</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="done">交易完成</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419007353031</p>
+												<ul>
+													<li class="newadd">
+														<p>快件已到达 广州中心</p>
+														<p>2016-11-17 09:07:51</p>
+													</li>
+													<li>
+														<p>快件离开 荔湾桥中 已发往 太原</p>
+														<p>2016-11-17 03:01:25</p>
+													</li>
+													<li>
+														<p>荔湾桥中 的 黄兴 已收件</p>
+														<p>2016-11-17 02:30:14</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn" target="_blank" href="">评价</a>
+												</li>
+												<li>
+													<a class="order_link order_remove" target="_blank" href="javascript:;">删除订单</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					<div class="order_list">
+						<div class="order_section">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 30567390477533 </span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-11-10 20:17:22 </span>
+												<a class="shop_name" href="">店铺名：<span>艾芳女装屋</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic2_999x999.v1c0.webp" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">冬装新款 纯色拉链毛球修身显瘦连帽大毛领中长款棉服</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：军绿色</p>
+												<p>尺码：S</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/zhibao_25x24.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">劣一赔三服务</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">270.00</p>
+											<p>179.00</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">待商家收货</a>
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥159.00</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="icon icon_delivery">已发货</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419124090386</p>
+												<ul>
+													<li class="newadd">
+														<p>[广州市] 快件到达 [广州中心]</p>
+														<p>2016-11-24 02:11:44</p>
+													</li>
+													<li>
+														<p>[广州市] 快件离开 [广州沙河]已发往[太原]</p>
+														<p>2016-11-23 23:47:36</p>
+													</li>
+													<li>
+														<p>[广州市] [广州沙河]的杨慧明已收件 电话:18802051989</p>
+														<p>2016-11-22 02:13:40</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn primary order_confirm" target="_blank" href="">确认收货</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					
+					
+					<div class="order_list">
+						<div class="order_section finished">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 30567390457533 </span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-11-10 20:17:22 </span>
+												<a class="shop_name" href="">店铺名：<span>首尔大叔家女装</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic3_999x999.v1c0.webp" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">2016冬装新款韩版时尚百搭加厚中长款大毛领连帽羽绒服外套</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：黑色</p>
+												<p>尺码：M</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/zhibao_25x24.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">劣一赔三服务</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">270.00</p>
+											<p>186.00</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥161.00</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="done">交易完成</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419007353031</p>
+												<ul>
+													<li class="newadd">
+														<p>快件已到达 广州中心</p>
+														<p>2016-11-17 09:07:51</p>
+													</li>
+													<li>
+														<p>快件离开 荔湾桥中 已发往 太原</p>
+														<p>2016-11-17 03:01:25</p>
+													</li>
+													<li>
+														<p>荔湾桥中 的 黄兴 已收件</p>
+														<p>2016-11-17 02:30:14</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn" target="_blank" href="">评价</a>
+												</li>
+												<li>
+													<a class="order_link order_remove" target="_blank" href="javascript:;">删除订单</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					
+					<div class="order_list">
+						<div class="order_section finished">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 27538279787533 </span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-10-23 09:02:28 </span>
+												<a class="shop_name" href="">店铺名：<span>轩轩格调</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic4_999x999.v1c0.webp" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：纯黑色</p>
+												<p>尺码：均码</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/zhibao_25x24.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">劣一赔三服务</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">50.00</p>
+											<p>19.90</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥19.90</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="done">交易完成</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419007353031</p>
+												<ul>
+													<li class="newadd">
+														<p>快件已到达 广州中心</p>
+														<p>2016-11-17 09:07:51</p>
+													</li>
+													<li>
+														<p>快件离开 荔湾桥中 已发往 太原</p>
+														<p>2016-11-17 03:01:25</p>
+													</li>
+													<li>
+														<p>荔湾桥中 的 黄兴 已收件</p>
+														<p>2016-11-17 02:30:14</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn" target="_blank" href="">评价</a>
+												</li>
+												<li>
+													<a class="order_link order_remove" target="_blank" href="javascript:;">删除订单</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					
+					<div class="order_list">
+						<div class="order_section finished">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 30567390457533 </span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-11-10 20:17:22 </span>
+												<a class="shop_name" href="">店铺名：<span>雅羊人爱美丽</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic5_999x999.v1c0.webp" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">秋冬季打底裤外穿女裤紧身显瘦铅笔加绒加厚黑色小脚高腰裤子长裤</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：黑色【A款超柔黄金绒】</p>
+												<p>尺码：S码【建议体重80斤到95斤】</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/zhibao_25x24.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">劣一赔三服务</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">56.86</p>
+											<p>19.90</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥19.90</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="done">交易完成</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419007353031</p>
+												<ul>
+													<li class="newadd">
+														<p>快件已到达 广州中心</p>
+														<p>2016-11-17 09:07:51</p>
+													</li>
+													<li>
+														<p>快件离开 荔湾桥中 已发往 太原</p>
+														<p>2016-11-17 03:01:25</p>
+													</li>
+													<li>
+														<p>荔湾桥中 的 黄兴 已收件</p>
+														<p>2016-11-17 02:30:14</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn" target="_blank" href="">评价</a>
+												</li>
+												<li>
+													<a class="order_link order_remove" target="_blank" href="javascript:;">删除订单</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					
+					
+					<div class="order_list">
+						<div class="order_section finished">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 30567390457533 </span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-11-10 20:17:22 </span>
+												<a class="shop_name" href="">店铺名：<span>穗依缘</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic6_999x999.v1c0.webp" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">【两色可选】幽默机智~秋冬兔八哥法兰绒长袖卡通家居服睡衣套装</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：灰色</p>
+												<p>尺码：M</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/zhibao_25x24.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">劣一赔三服务</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">57.00</p>
+											<p>36.80</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥36.80</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="done">交易完成</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419007353031</p>
+												<ul>
+													<li class="newadd">
+														<p>快件已到达 广州中心</p>
+														<p>2016-11-17 09:07:51</p>
+													</li>
+													<li>
+														<p>快件离开 荔湾桥中 已发往 太原</p>
+														<p>2016-11-17 03:01:25</p>
+													</li>
+													<li>
+														<p>荔湾桥中 的 黄兴 已收件</p>
+														<p>2016-11-17 02:30:14</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn" target="_blank" href="">评价</a>
+												</li>
+												<li>
+													<a class="order_link order_remove" target="_blank" href="javascript:;">删除订单</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					
+					
+					<div class="order_list">
+						<div class="order_section finished">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 30567390457533 </span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-11-10 20:17:22 </span>
+												<a class="shop_name" href="">店铺名：<span>suger韩衣铺</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic7_999x999.v1c0.webp" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">韩范 新款高腰排扣百搭双口袋宽松牛仔短裤</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：图片色</p>
+												<p>尺码：S</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/zhibao_25x24.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">劣一赔三服务</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">70.00</p>
+											<p>45.50</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥45.50</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="done">交易完成</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419007353031</p>
+												<ul>
+													<li class="newadd">
+														<p>快件已到达 广州中心</p>
+														<p>2016-11-17 09:07:51</p>
+													</li>
+													<li>
+														<p>快件离开 荔湾桥中 已发往 太原</p>
+														<p>2016-11-17 03:01:25</p>
+													</li>
+													<li>
+														<p>荔湾桥中 的 黄兴 已收件</p>
+														<p>2016-11-17 02:30:14</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn" target="_blank" href="">评价</a>
+												</li>
+												<li>
+													<a class="order_link order_remove" target="_blank" href="javascript:;">删除订单</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					
+					
+					<div class="order_list">
+						<div class="order_section finished">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 30567390457533 </span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-11-10 20:17:22 </span>
+												<a class="shop_name" href="">店铺名：<span>居优名品</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic8_999x999.v1c0.webp" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">（零透光）女士防晒黑胶晴雨伞</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：黑色花纹</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">41.57</p>
+											<p>17.70</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥17.70</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="done">交易完成</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419007353031</p>
+												<ul>
+													<li class="newadd">
+														<p>快件已到达 广州中心</p>
+														<p>2016-11-17 09:07:51</p>
+													</li>
+													<li>
+														<p>快件离开 荔湾桥中 已发往 太原</p>
+														<p>2016-11-17 03:01:25</p>
+													</li>
+													<li>
+														<p>荔湾桥中 的 黄兴 已收件</p>
+														<p>2016-11-17 02:30:14</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn" target="_blank" href="">评价</a>
+												</li>
+												<li>
+													<a class="order_link order_remove" target="_blank" href="javascript:;">删除订单</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					
+					
+					<div class="order_list">
+						<div class="order_section finished">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 30567390457533 </span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-11-10 20:17:22 </span>
+												<a class="shop_name" href="">店铺名：<span>JaneBeauty</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic9_999x999.v1c0.webp" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">【返3元】EXO吴世勋同款纯色字母背带双肩包</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：黑色</p>
+												<p>尺码：大</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">78.00</p>
+											<p>39.00</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥34.00</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="done">交易完成</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419007353031</p>
+												<ul>
+													<li class="newadd">
+														<p>快件已到达 广州中心</p>
+														<p>2016-11-17 09:07:51</p>
+													</li>
+													<li>
+														<p>快件离开 荔湾桥中 已发往 太原</p>
+														<p>2016-11-17 03:01:25</p>
+													</li>
+													<li>
+														<p>荔湾桥中 的 黄兴 已收件</p>
+														<p>2016-11-17 02:30:14</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn" target="_blank" href="">评价</a>
+												</li>
+												<li>
+													<a class="order_link order_remove" target="_blank" href="javascript:;">删除订单</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					
+					
+					<div class="order_list">
+						<div class="order_section finished">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 30567390457533 </span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-11-10 20:17:22 </span>
+												<a class="shop_name" href="">店铺名：<span>五格格美包</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic10_999x999.v1c0.webp" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">2016春夏新款简约细带小方包</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：粉红色</p>
+												<p>尺码：MINI/迷你</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/zhibao_25x24.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">劣一赔三服务</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">49.50</p>
+											<p>29.70</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥26.70</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="done">交易完成</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419007353031</p>
+												<ul>
+													<li class="newadd">
+														<p>快件已到达 广州中心</p>
+														<p>2016-11-17 09:07:51</p>
+													</li>
+													<li>
+														<p>快件离开 荔湾桥中 已发往 太原</p>
+														<p>2016-11-17 03:01:25</p>
+													</li>
+													<li>
+														<p>荔湾桥中 的 黄兴 已收件</p>
+														<p>2016-11-17 02:30:14</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn" target="_blank" href="">评价</a>
+												</li>
+												<li>
+													<a class="order_link order_remove" target="_blank" href="javascript:;">删除订单</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+					
+					
+					<div class="order_list">
+						<div class="order_section finished">
+							<table class="order_table">
+								<tbody>
+									<tr class="orderTable_title">
+										<td colspan="7">
+											<div class="order_info">
+												<span class="order_no">
+													订单编号：<span class="order_num"> 30567390457533 </span>
+												</span>
+												<span class="deal_time"> 成交时间：2016-11-10 20:17:22 </span>
+												<a class="shop_name" href="">店铺名：<span>首尔大叔家女装</span></a>
+											</div>
+											<a href="" class="mogutalk_btn">
+												<span class="icon icon_contact">联系商家</span>
+											</a>
+										</td>
+									</tr>
+									<tr class="orderTable_item">
+										<td class="goods">
+											<a class="pic" href="" target="_blank"><img src="img/myOrder/orderpic11_999x999.v1c0.webp" width="70px"/></a>
+											<div class="desc">
+												<p>
+													<a href="" target="_blank">韩版秋装黄色卫衣+黑色半身裙</a>
+													<a href="" target="_blank">[交易快照]</a>
+												</p>
+												<p>颜色：黄色卫衣+黑色半身裙</p>
+												<p>尺码：M</p>
+												<ul class="tags_list">
+													<li class="tagsList_item">
+														<img src="img/myOrder/sevenfahuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天发货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/seventuihuo_18x18.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">7天无理由退货</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+													<li class="tagsList_item">
+														<img src="img/myOrder/zhibao_25x24.png"/>
+														<div class="tags_hid">
+															<a class="tags_link" href="">劣一赔三服务</a>
+															<span class="icon_arrow"></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</td>
+										<td class="price">
+											<p class="price_old">128.00</p>
+											<p>89.60</p>
+										</td>
+										<td class="quantity">1</td>
+										<td class="aftersale">
+											<a href="" class="order_link" target="_blank">申请维权</a>
+										</td>
+										<td class="total" rowspan="1">
+											<p class="total_price">￥89.60</p>
+											<p>(包邮)</p>
+										</td>
+										<td class="status" rowspan="1">
+											<p class="done">交易完成</p>
+											<a href="" class="order_link go_detail_link" target="_blank">订单详情</a>
+											<a class="order_link delivery_info" href="javascript:;">查看物流</a>
+											<div class="delivery_detail">
+												<p>物流公司：中通快递</p>
+												<p>物流单号：419007353031</p>
+												<ul>
+													<li class="newadd">
+														<p>快件已到达 广州中心</p>
+														<p>2016-11-17 09:07:51</p>
+													</li>
+													<li>
+														<p>快件离开 荔湾桥中 已发往 太原</p>
+														<p>2016-11-17 03:01:25</p>
+													</li>
+													<li>
+														<p>荔湾桥中 的 黄兴 已收件</p>
+														<p>2016-11-17 02:30:14</p>
+													</li>
+												</ul>
+												<a href="" class="delivery_more go_detail_link">查看详情</a>
+											</div>
+										</td>
+										<td class="other" rowspan="1">
+											<ul>
+												<li>
+													<a class="order_btn" target="_blank" href="">评价</a>
+												</li>
+												<li>
+													<a class="order_link order_remove" target="_blank" href="javascript:;">删除订单</a>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="page_container">
+					<a href="#" class="c">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">下一页&gt;</a>
+			</div>
+				
+				
+		</div>
+		
+		
+		
+		<div id="footer" class="wrapall">
+			<div id="footer_content" class="wrap">
+				<div id="footer_top">
+					<div id="top_left" class="lt">
+						<img src="img/index/logo.png" /><br />
+						<span class="footer_text">营业执照注册号：330106000129004</span><br />
+						<span class="footer_text">增值电信业务经营许可证：浙B2-20110349</span><br />
+						<span class="footer_text">网络文化经营许可证：浙网文(2016)0349-219号</span><br />
+						<span class="footer_text">安全责任书</span><br />
+						<span class="footer_text gongan">浙公网安备&nbsp;33010602002329</span><br />
+						<span class="footer_text">&copy;2016&nbsp;Mogujie.com杭州卷瓜网络有限公司</span>
+					</div>
+					<div id="top_middle" class="lt">
+						<dl class="lt">
+							<dt>公司</dt>
+							<dd>关于我们</dd>
+							<dd>招聘信息</dd>
+							<dd>联系我们</dd>
+						</dl>
+						<dl class="lt">
+							<dt>消费者</dt>
+							<dd>消费者服务</dd>
+							<dd>意见反馈</dd>
+							<dd>手机版下载</dd>
+						</dl>
+						<dl class="lt">
+							<dt>商家</dt>
+							<dd>商家入驻</dd>
+							<dd>商家后台</dd>
+							<dd>蘑菇商学院</dd>
+							<dd>商家社区</dd>
+						</dl>
+						<dl class="lt">
+							<dt>权威认证</dt>
+							<dd class="quanwei"></dd>
+						</dl>
+					</div>
+				</div>
+				<div id="footer_bottom">
+					<ul>
+						<li class="lt">友情链接：</li>
+						<li class="lt">蘑菇街游戏</li>
+						<li class="lt">淘粉吧</li>
+						<li class="lt">穿衣搭配</li>
+						<li class="lt">蘑菇街男装</li>
+						<li class="lt">蘑菇街鞋子</li>
+						<li class="lt">蘑菇街包包</li>
+						<li class="lt">QQ钱包</li>
+						<li class="lt">家具网</li>
+						<li class="lt">时尚品牌网</li>
+						<li class="lt">装修</li>
+						<li class="lt">蘑菇街母婴</li>
+						<li class="lt">衣联网</li>
+						<li class="lt">播视网视频</li>
+						<li class="lt">慧聪网</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--查看物流-->
+			<script>
+				var deliverys=$(".delivery_info");
+				var deliverysLists=$(".delivery_detail");
+				for(var i=0;i<deliverys.length;i++){
+					deliverys[i].index=i;
+					deliverysLists[i].index=i;
+					deliverys[i].onmouseover=function(){
+						changeMode(deliverysLists[this.index],"block");
+						getDistance(deliverysLists[this.index],deliverys[this.index],-55)
+					}
+					deliverys[i].onmouseout=function(){
+						changeMode(deliverysLists[this.index],"none");
+					}
+					deliverysLists[i].onmouseover=function(){
+						changeMode(deliverysLists[this.index],"block");
+					}
+					deliverysLists[i].onmouseout=function(){
+						changeMode(deliverysLists[this.index],"none");
+					}
+				}
+				
+				function changeMode(elem,mode){
+					elem.style.display=mode;
+				}
+				function getDistance(elem,parEle,dis){
+					//offsetLeft:元素距离左边的距离
+					elem.style.left=parEle.offsetLeft+dis+"px";
+					//offsetTop:元素距离上边的距离
+					elem.style.top=parEle.offsetTop+parEle.offsetHeight+"px";
+				}
+			</script>
+			<!--删除订单-->
+			<script type="text/javascript" src="js/removeNode.js"></script>
+			<script>
+				var removeOrder=$(".order_remove");
+				var orderlists=$(".finished");
+				for(var i=0;i<removeOrder.length;i++){
+					removeOrder[i].index=i;
+					orderlists[i].index=i;
+					removeOrder[i].onclick=function(){
+						alert(this.index,"你确定要删除这笔订单吗？删除后你可在订单回收站找回,或永久删除");
+					}
+				}
+				window.alert=function(num,str){
+					//创建div,后面的透明层
+					var bigDiv=document.createElement("div");
+					bigDiv.id="bigDiv";
+//					var h=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;
+//					bigDiv.style.height=h+"px";
+					try{
+						//IE不支持
+						bigDiv.style.background="rgba(0,0,0,.5)";
+					}catch(e){   //e不可缺少
+						bigDiv.style.background="#000";
+						//IE8
+						bigDiv.style.filter="alpha(opacity:50)";
+					}
+					document.body.appendChild(bigDiv);
+					var centerDiv=document.createElement("div");
+					centerDiv.id="centerDiv";
+					var strHtml='<h5 class="al_title">提示</h5>'+'<a onclick="clo()" href="javascript:;" class="al_cls"></a>';
+					strHtml+='<div class="al_pop_box">';
+					strHtml+='<div class="al_alert">';
+					strHtml+='<p class="al_cnt">'+str+'</p>'+'<a onclick="ok()" href="javascript:;" class="al_btn">确定</a>'+'<a onclick="clo()" href="javascript:;" class="al_btn close">取消</a>';
+					strHtml+='</div></div>';
+					centerDiv.innerHTML=strHtml;
+					document.body.appendChild(centerDiv);
+					this.clo=function(){
+						console.log(bigDiv.parentNode)
+						bigDiv.parentNode.removeChild(bigDiv);
+						centerDiv.parentNode.removeChild(centerDiv);
+					}
+					this.ok=function(){
+						removeNode(orderlists,num,removeOrder);
+						clo();
+					}
+				}
+			</script>>
+			
+			<!--小图标触发显示-->
+			<script>
+				var tagsLists=$(".tagsList_item");
+				var tagsHides=$(".tags_hid");
+				for(var i=0;i<tagsLists.length;i++){
+					tagsLists[i].index=i;
+					tagsHides[i].index=i;
+					tagsLists[i].onmouseover=function(){
+						changeMode(tagsHides[this.index],"block");
+					}
+					tagsLists[i].onmouseout=function(){
+						changeMode(tagsHides[this.index],"none");
+					}
+				}
+				function changeMode(elem,mode){
+					elem.style.display=mode;
+				}
+			</script>
+	</body>
+</html>

@@ -1,0 +1,213 @@
+#header{
+	height:31px;
+	border-bottom:1px solid #ddd;
+	background-color:#f2f2f2;
+}
+#header .wrap .home{
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	padding:0 20px;
+	background:url(../img/index/headerBackground.png) no-repeat 0 -6px;
+	margin-left:10px;
+	vertical-align:bottom;
+}
+#header .header_top{
+	overflow:hidden;
+}
+#header .header_top li{
+	float:left;
+	margin-right:15px;
+	line-height:31px;
+}
+#header .header_top li.mystore{
+	margin-right:0px;
+}
+#header .header_top li a{
+	padding-left:15px;
+}
+#header .header_top li.has_line>a{
+	border-left:1px solid #ddd;
+}
+#header .header_top b.icon_delta{
+	display:inline-block;
+	width:7px;
+	height:5px;
+	margin-left:4px;
+	background:url(../img/index/headerBackground.png) no-repeat 0 0;
+}
+#header .header_top b.forward{
+	display:inline-block;
+	width:18px;
+	height:25px;
+	vertical-align:top;
+	background:url(../img/index/headerBackgroundright.png) no-repeat;
+}
+#header .header_top b.myOrder{
+	background-position:2px -212px;
+}
+#header .header_top b.shopping{
+	padding:0 2px;
+	background-position:1px -104px;
+}
+#header .header_top  span.num{
+	color:#f36;
+	padding:0 3px;
+	font-weight:400;
+}
+#header .header_top b.myStore{
+	padding:0 2px;
+	background-position:1px -251px;
+}
+.nav_child1{
+	background-color:#EEEEEE;
+	position:absolute;
+	border-radius:0 0 5px 5px;
+	display:none;
+	z-index:3;
+}
+.nav_child1 li{
+	padding-bottom:2px;
+}
+.nav_child1 li a{
+	display:block;
+	height:28px;
+	line-height:28px;
+	padding:0 20px;
+	color:#444;
+}
+div#shopping_child{
+	width:250px;
+	background:#eee;
+	border:1px solid #ddd;
+	border-radius:0 0 5px 5px;
+	padding:15px;
+	position:absolute;
+	display:none;
+	z-index:100;
+}
+div#shopping_child ul li{
+	overflow:hidden;
+	line-height:22px;
+	margin-bottom:12px;
+	height:40px;
+}
+div#shopping_child ul li a.imgbox{
+	margin-right:5px;
+}
+div#shopping_child ul li a.title{
+	display:block;
+	width:150px;
+	height:22px;
+	overflow:hidden;
+	color:#333;
+}
+div#shopping_child ul li span.info{
+	display:block;
+	width:150px;
+	height:20px;
+	overflow:hidden;
+	font-weight:400;
+	color:#999;
+}
+div#shopping_child ul li span.price{
+	color:#666;
+}
+div#shopping_child ul li span.del{
+	color:#999;
+	cursor:pointer;
+	font-weight:400;
+}
+div#shopping_child div.gotoCart{
+	border-top:1px solid #ddd;
+	color:#333;
+	padding:15px 0 0 0;
+	line-height:24px;
+	height:24px;
+}
+div#shopping_child div.gotoCart a{
+	float:right;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	padding:0 10px;
+	background:#f46;
+	border-radius:4px;
+	font-weight:700;
+	color:#fff;
+}
+
+#rightbar{
+	width: 30px;
+	height: 100%;
+	background-color: #202020;
+	position:fixed;
+	right: 0;
+	top:0;
+	z-index: 22;
+	padding-top: 35px;
+}
+#rightbar .slideBar_item{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+	line-height:15px;
+}
+#rightbar .slideBar_itema{
+	display:block;
+	padding:13px 4px;
+	border-bottom: 1px solid #919191;
+}
+#rightbar .slideBottom{
+	display:none;
+}
+#rightbar .slideBottom .slideBar_itema{
+	border-bottom:0;
+	border-top:1px solid #919191;
+	position:absolute;
+	bottom:20px;
+}
+#rightbar .slideBar_item_img a img.userhead{
+	border-radius:10px;
+	border:1px solid #fff;
+}
+#rightbar .slideBar_item .bar_text{
+	color:#fff;
+}
+#rightbar .slideBar_item i.bar_icons{
+	padding: 5px 0 0 20px;
+	background-image: url(../img/index/gouwuche_30x220.png);
+}
+#rightbar .slideBar_item .gouwu{
+	background-position: -6px -7px;
+}
+#rightbar .slideBar_item .youhuijuan{
+	background-position: -6px -38px;
+}
+#rightbar .slideBar_item .qianbao{
+	background-position: -6px -98px;
+}
+#rightbar .slideBar_item .zuji{
+	background-position: -6px -65px;
+}
+#rightbar .slideBottom .totop{
+	display:block;
+	width:30px;
+	height:30px;
+	background: url(../img/index/gouwuche_30x220.png) no-repeat -3px -158px;
+}
+
+div.slideBar_num{
+	width:20px;
+	height:20px;
+	border-radius:30px;
+	color:#fff;
+	text-align:center;
+	line-height:20px;
+	background-color:#ef2f23;
+	margin-top:5px;
+}
+div.numhover{
+	color:#ef2f23;
+	background-color:#fff;
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>钱包</title>
+		<script src="js/$.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/purse.css"/>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/RightAndTop.css"/>
+	</head>
+	<body>
+		<!--右侧边栏-->
+		<div id="rightbar">
+			<div class="slideBar_item_img">
+				<a class="slideBar_itema" href="http://www.mogujie.com/member?ptp=1.ii9Gy._sidebar.0.PW6BO">
+					<img src="img/shoppingCart/head.jpg" width="20px" height="20px" class="userhead"/>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="shoppingCart.html" target="_blank" class="slideBar_itema">
+					<i class="bar_icons gouwu"></i>
+					<div class="bar_text">购物车</div>
+					<div class="num slideBar_num">4</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="#" class="slideBar_itema">
+					<i class="bar_icons youhuijuan"></i>
+					<div class="bar_text">优惠券</div>
+					<div class="slideBar_num">2</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="javascript:;" class="slideBar_itema">
+					<i class="bar_icons qianbao"></i>
+					<div class="bar_text">钱包</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="footprint.html" target="_blank" class="slideBar_itema">
+					<i class="bar_icons zuji"></i>
+					<div class="bar_text">足迹</div>
+				</a>
+			</div>
+			<div class="slideBottom">
+				<a href="javascript:;" class="slideBar_itema">
+					<i class="bar_icons totop"></i>
+				</a>
+			</div>
+			<script type="text/javascript" src="js/rightBar.js"></script>
+		</div>
+		<!--nav头部-->
+		<div id="head" class="width clear">
+			<a href="index.html" target="_blank">蘑菇街首页</a>
+			<div class="">
+				您好，谁低吟浅唱！
+				<a href="load.html" target="_blank">安全退出</a>
+			</div>
+		</div>
+		<div id="nav">
+			<div class="width">
+				<a href=""><img src="img/purse/purseLogo_130x34.png"/></a>
+				<ul>
+					<li><a href="" class="aclick">首页</a></li>
+					<li><a href="">账号管理</a></li>
+					<li><a href="">资金管理</a></li>
+					<li><a href="">理财</a></li>
+					<li><a href="">帮助中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="banner">
+			<div class="width">
+				<img src="img/purse/purseHead.jpg" title="点击更换头像"/>
+				<p class="banner_big">亲爱的谁低吟浅唱，你好</p>
+				<p class="banner_sml">上次登录时间：2016-11-23 15:01:48 于山西省太原市</p>
+			</div>
+		</div>
+		<!--修改  亲爱的谁低吟浅唱，下午好  中时间的方法-->
+		<script type="text/javascript">
+			window.onload=function(){
+				var nowTime=new Date();
+				var nowHour=nowTime.getHours();
+				var bannerBig=$(".banner_big")[0];
+				switch(true){
+					case nowHour<6:bannerBig.innerHTML="亲爱的谁低吟浅唱，深夜好";break;
+					case nowHour<9:bannerBig.innerHTML="亲爱的谁低吟浅唱，早上好";break;
+					case nowHour<12:bannerBig.innerHTML="亲爱的谁低吟浅唱，上午好";break;
+					case nowHour<14:bannerBig.innerHTML="亲爱的谁低吟浅唱，中午好";break;
+					case nowHour<18:bannerBig.innerHTML="亲爱的谁低吟浅唱，下午好";break;
+					case nowHour<23:bannerBig.innerHTML="亲爱的谁低吟浅唱，晚上好";break;
+					default:bannerBig.innerHTML="亲爱的谁低吟浅唱，深夜好";
+				}
+			}
+		</script>
+		<div id="container" class="width">
+			<div class="content clear">
+				<div class="con1_left">
+					<h4>我的余额</h4>
+					<div class="con1_left2 clear">
+						<div>
+							0.00元
+						</div>
+						<ul>
+							<li><a href="">提现</a></li>
+							<li>|</li>
+							<li>可提现余额：<span>0.00</span>元</li>
+						</ul>
+					</div>
+					<h4>理财</h4>
+					<div class="con1_left2 clear">
+						<ul>
+							<li>零风险，高收益，闪电提现！</li>
+							<a href="" class="red">去理财</a>
+						</ul>
+					</div>
+					<div class="con1_left2 con1_left5 clear">
+						<h4>优惠</h4>
+						<ul>
+							<li class="con1_left51">魔豆 <a href="">14</a>粒</li>
+							<li class="con1_left52">现金券 <a href="">0</a>张</li>
+							<li class="con1_left53">店铺优惠券 <a href="">0</a>张</li>
+							<li class="con1_left54">银行卡 <a href="">0</a>张</li>
+							<li class="con1_left55">支付宝红包 <a href="">0</a>个</li>
+						</ul>
+					</div>
+				</div>
+				<div class="con1_right">
+					<div class="con1_right_top">
+						<span class="crt_left">街利贷</span>
+						<span class="crt_right">商家必用，火热申请</span>
+					</div>
+					<div class="con1_right_bot">
+						<div class="crt_top">
+							暂时无法申请街利贷
+						</div>
+						<div class="crt_bot">
+							<a href="">了解申请条件&gt;&gt;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content clear">
+				<div class="con2_top">
+					已绑定的银行卡 <span>0</span>张
+				</div>
+				<div class="con2_cen">
+					<img src="img/purse/purseImg_352x110.png"/>
+				</div>
+				<div class="con2_bot">
+					<a href="">查看我的银行卡</a>
+				</div>
+			</div>
+			<div class="content clear">
+				<a href=""><img src="img/purse/purseAd_1200x100.jpg"/></a>
+			</div>
+		</div>
+		<!--foot部分-->
+		<div id="footer">
+			<div id="footer_top" class="foot_width">
+				<ul>
+					<li id="footer_top_left">
+						<img src="img/index/logo_152x38.png" />
+						<div>营业执照注册号：<a href="">330106000129004</a><br />
+							增值电信业务经营许可证：<a href="">浙B2-20110349</a><br />
+							网络文化经营许可证：<a href="">浙网文（2016）0349-219号</a><br />
+							<a href="">安全责任书</a></div>
+						<div><a href=""><img src="http://s18.mogucdn.com/p1/160428/upload_ifrgemjwgq3gemzthazdambqmeyde_20x20.png" />浙公网安备 33010602002329号</a><br />
+         					©2016 Mogujie.com 杭州卷瓜网络有限公司</div>
+					</li>
+					<li class="footer_top_center">
+						<ul>
+							<li>公司</li>
+							<li><a href="">关于我们</a></li>
+							<li><a href="">招聘信息</a></li>
+							<li><a href="">联系我们</a></li>
+						</ul>
+					</li>
+					<li class="footer_top_center">
+						<ul>
+							<li>消费者</li>
+							<li><a href="">消费者服务</a></li>
+							<li><a href="">意见反馈</a></li>
+							<li><a href="">手机版下载</a></li>
+						</ul>
+					</li>
+					<li class="footer_top_center">
+						<ul>
+							<li>商家</li>
+							<li><a href="">商家入驻</a></li>
+							<li><a href="">商家后台</a></li>
+							<li><a href="">蘑菇商学院</a></li>
+							<li><a href="">商家社区</a></li>
+						</ul>
+					</li>
+					<li id="footer_top_right">
+						<a href=""><div>权威认证</div></a>
+						<a href=""><img src="img/index/footerpingan.png" /></a>
+						<a href=""><img src="img/index/footerkexin.png" /></a>
+					</li>
+				</ul>
+			</div>
+			<div id="footer_bottom" class="foot_width">
+				<ul>
+					<li>友情链接:</li>
+					<li><a href="">蘑菇街游戏</a></li>
+					<li><a href="">淘粉吧</a></li>
+					<li><a href="">穿衣搭配</a></li>
+					<li><a href="">蘑菇街男装</a></li>
+					<li><a href="">蘑菇街鞋子</a></li>
+					<li><a href="">蘑菇街泡泡</a></li>
+					<li><a href="">QQ钱包</a></li>
+					<li><a href="">家居网</a></li>
+					<li><a href="">时尚品牌网</a></li>
+					<li><a href="">装修</a></li>
+					<li><a href="">蘑菇街母婴</a></li>
+					<li><a href="">衣联网</a></li>
+					<li><a href="">播视网视频</a></li>
+					<li><a href="">慧聪网</a></li>
+				</ul>
+			</div>
+		</div>
+		<script src="js/rightBar.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

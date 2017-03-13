@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>NBA赛事</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/angular1.4.6.js"></script>
+        <style type="text/css">
+        	.conTitle{
+        		position: relative;
+        		background: #EEEEEE;
+        		border-radius: 10px;
+        		padding-left: 20px;
+        	}
+        	.conTitle h2{
+        		float: left;
+        	}
+        	.conTitle span.label{
+        		position: absolute;
+        		top: 30px;
+        	}
+        	h4{
+        		padding: 10px 0 6px 20px;
+        		border-radius: 5px;
+        	}
+        	ul{
+        		list-style: none;
+        		padding: 0;
+        	}
+        	.imgWrap{
+        		width: 50%;
+        		float: left;
+        		padding: 0 5px;
+        	}
+        	.teamWrap{
+        		width: 50%;
+        		float: left;
+        		padding: 0 5px;
+        	}
+        	img{
+        		width: 30px;
+        	}
+        </style>
+    </head>
+    <body ng-app="app" ng-controller="Controller">
+    	<nav class="navbar navbar-default">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">NAB赛事</a>
+		    </div>
+		
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">首页</a></li>
+		        <li class="active"><a href="#">赛程 <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">排名</a></li>
+		        <li><a href="#">球员</a></li>
+		      </ul>
+		      <form class="navbar-form navbar-left">
+		        <div class="form-group">
+		          <input type="text" class="form-control" placeholder="请输入球队、球员或赛事">
+		        </div>
+		        <button type="submit" class="btn btn-default">搜索</button>
+		      </form>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">登录</a></li>
+		        <li><a href="#">注册</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<section class="container">
+			<div class="conTitle clearfix">
+		        <h2>
+		        	{{data.title}}
+		        </h2>
+	        	<span class="label label-primary">常规赛</span>
+			</div>
+			<ul>
+				<li ng-repeat="ul in data.list">
+					<h4 class="bg-primary">{{ul.title}}</h4>
+					<table class="table table-striped table-hover table-responsive">
+						<thead>
+							<tr>
+								<th class="text-center">时间</th>
+								<th class="text-center">客队</th>
+								<th class="text-center">比分</th>
+								<th class="text-center">主队</th>
+								<th class="text-center">直播/回放</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr ng-repeat="tr in ul.tr">
+								<td class="text-center">{{tr.time.slice(-5)}}</td>
+								<td class="text-center"><a ng-href="{{tr.player1url}}" target="_blank">
+									<div class="imgWrap text-right"><img ng-src="{{tr.player1logo}}"/></div>
+									<div class="teamWrap text-left">{{tr.player1}}</div>
+								</a></td>
+								<td class="text-center">{{tr.score}}</td>
+								<td class="text-center"><a ng-href="{{tr.player2url}}" target="_blank">
+									<div class="teamWrap text-right">{{tr.player2}}</div>
+									<div class="imgWrap text-left"><img ng-src="{{tr.player2logo}}"/></div>
+								</a></td>
+								<td class="text-center"><a ng-href="{{tr.link1url}}" target="_blank">{{tr.link1text}}</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+			</ul>
+		</section>
+    	
+        
+        <script>
+            angular.module("app",[])
+            .controller("Controller",["$scope","$http","$timeout",function($scope,$http,$timeout){
+            	$scope.data="";
+            	$http({
+                	method:'GET',
+                	url:'http://oi7edk8dy.bkt.clouddn.com/jsonp.js'
+            	})
+            	.success(function(data,status){
+            		$scope.data=data.result;
+            		console.info(data.result);
+            	})
+            	.error(function(err,status){
+            		console.warn(err,status);
+            	})
+            }])
+        </script>
+    </body>
+</html>

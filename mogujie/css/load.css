@@ -1,0 +1,176 @@
+.width{
+	width: 900px;
+	margin: 0 auto;
+}
+#container{
+	padding: 27px 0 33px;
+	min-height: 580px;
+}
+#content{
+	margin-top: 40px;
+	height: 500px;
+	color: #999999;
+}
+#content a{
+	color: #999;
+}
+#con_banner{
+	width: 400px;
+	padding: 20px 0 0 40px;
+	float: left;
+	display: inline;
+}
+#con_con{
+	width: 322px;
+	float: right;
+	display: inline;
+	border: 1px solid #dcdcdc;
+	padding: 0 0 30px 38px;
+	position: relative;
+}
+
+/*右上角二维码点击后内容*/
+.top_right{
+	height: 380px;
+	position: relative;
+	width: 100%;
+	display: none;
+}
+.tr_tr{
+	background: rgba(0, 0, 0, 0) url("http://s16.mogucdn.com/p1/160418/upload_ifrdcojvgftdmmbqhazdambqmeyde_52x53.png") no-repeat scroll 0 0;
+	height: 53px;
+	width: 53px;
+}
+.top_right_img{
+	cursor: pointer;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.tr_top{
+	background: rgba(0, 0, 0, 0) url("http://s17.mogucdn.com/p1/160418/upload_ie4wiojrg43dombqhazdambqgqyde_190x37.png") no-repeat scroll 0 0;
+	height: 80px;
+	position: absolute;
+	top: 30px;
+	width: 200px;
+}
+.tr_center{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	left: 50%;
+	top: 100px;
+	margin-left: -122px;
+}
+.tr_center img{
+	width: 100%;
+}
+.tr_bot{
+	position: absolute;
+	left: 50%;
+	width: 200px;
+	bottom: 0;
+	font-size: 18px;
+	height: 30px;
+	margin-left: -100px;
+	text-decoration: underline;
+}
+
+/*直接显示样式*/
+.tr_twoCode{
+	background: rgba(0, 0, 0, 0) url(../img/load/loadTopRightTowCode_46x46.png) no-repeat scroll 0 0;
+	height: 46px;
+	width: 46px;
+}
+#con_con .con_top{
+	height: 70px;
+	margin-left: -38px;
+}
+#con_con .con_title{
+	width: 50%;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	text-align: center;
+}
+#con_con .con_title b{
+	width: 119px;
+	margin: 10px auto 0;
+	height: 41px;
+	line-height: 41px;
+	font-weight: bold;
+	display: block;
+	cursor: pointer;
+}
+#con_con .con_title .titleclick{
+	border-bottom: 2px solid #ff4066;
+	height: 39px;
+	color: #333333;
+} 
+.formli{
+	margin-bottom: 15px;
+}
+.con_bot{
+	font-size: 12px;
+}
+.formli input[type="text"],.formli input[type="password"]{
+	width: 269px;
+	border: 1px solid #CCCCCC;
+	height: 28px;
+	padding: 0 6px;
+}
+.autoload a{
+	margin-left: 126px;
+}
+.loadbtn input{
+	width: 285px;
+	height: 30px;
+	background: #ff1877;
+	border-radius: 2px;
+	cursor: pointer;
+	color: #fff;
+	border: none;
+}
+.loadchoose a{
+	text-decoration: underline;
+}
+.loadchoose a.newuser{
+	margin-left: 146px;
+}
+.form_bot{
+	margin-top: 30px;
+}
+.form_bot>div{
+	padding-top: 6px;
+}
+.form_bot>p{
+	color: #ff5783;
+	margin-top: 20px;
+	width: 285px;
+}
+#phone select{
+	width: 104px;
+	height: 30px;
+	margin-right: 10px;
+	line-height: 1.5;
+	border: 1px solid #c4c4c4;
+	font-size: 14px;
+	padding: 4px 35px 4px 10px;
+}
+#phonenumber{
+	width: 149px;
+}
+.disnone{
+	display: none;
+}
+
+/*输入手机号错误时的提示框样式*/
+.error_tip{
+	background: #fffff8 url(../img/load/loadWarnWrongPhone_16x16.png) no-repeat scroll 12px center;
+	border: 1px solid #ffd797;
+	color: #ff1877;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 9px;
+	padding-left: 40px;
+	width: 240px;
+}

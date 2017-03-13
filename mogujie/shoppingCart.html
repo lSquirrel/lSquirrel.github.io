@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我的购物车</title>
+		<link type="text/css" rel="stylesheet" href="css/reset.css"/>
+		<link type="text/css" rel="stylesheet" href="css/shoppingCart.css"/>
+		<link type="text/css" rel="stylesheet" href="css/RightAndTop.css" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<script type="text/javascript" src="js/$.js"></script>
+	</head>
+	<body>
+		<div id="rightbar">
+			<div class="slideBar_item_img">
+				<a class="slideBar_itema" href="http://www.mogujie.com/member?ptp=1.ii9Gy._sidebar.0.PW6BO">
+					<img src="img/shoppingCart/head.jpg" width="20px" height="20px" class="userhead"/>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="#" class="slideBar_itema">
+					<i class="bar_icons gouwu"></i>
+					<div class="bar_text">购物车</div>
+					<div class="num slideBar_num">4</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="#" class="slideBar_itema">
+					<i class="bar_icons youhuijuan"></i>
+					<div class="bar_text">优惠券</div>
+					<div class="slideBar_num">2</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="#" class="slideBar_itema">
+					<i class="bar_icons qianbao"></i>
+					<div class="bar_text">钱包</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="#" class="slideBar_itema">
+					<i class="bar_icons zuji"></i>
+					<div class="bar_text">足迹</div>
+				</a>
+			</div>
+			<div class="slideBottom">
+				<a href="javascript:;" class="slideBar_itema">
+					<i class="bar_icons totop"></i>
+				</a>
+			</div>
+			<script type="text/javascript" src="js/rightBar.js"></script>
+		</div>
+		
+		<div id="header" class="wrapall">
+			<div class="wrap">
+				<a href="#" class="home lt" >蘑菇街首页</a>
+				<ul class="header_top rt">
+					<li id="userName" class="navli"><a href="">用户名</a><b class="icon_delta"></b></li>
+					<li id="message" class="has_line"><a href="">消息</a></li>
+					<li id="myCollect" class="has_line navli"><a href="">我的收藏</a><b class="icon_delta"></b></li>
+					<li id="myOrder" class="has_line"><a href=""><b class="myOrder forward"></b>我的订单</a></li>
+					<li id="shopping" class="has_line navli"><a href=""><b class="shopping forward"></b>购物车</a><span class="num">4</span>件</li>
+					<li id="customerSevice" class="has_line navli"><a href="">客户服务</a><b class="icon_delta"></b></li>
+					<li id="myStore" class="has_line mystore navli"><a href=""><b class="myStore forward"></b>我的小店</a></li>
+				</li>
+			</div>
+		</div>
+		<ul id="userName_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.mogujie.com/settings/personal" target="_blank">个人设置</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/settings/bind" target="_blank">账号绑定</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/logout" target="_blank">退出</a></li>
+		</ul>
+		<ul id="myCollect_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.mogujie.com/active/favs" target="_blank">收藏的商品</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/active/shopfavs" target="_blank">收藏的小店</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/active/browserlog" target="_blank">浏览足迹</a></li>
+		</ul>
+		<div id="shopping_child" class="nav_child">
+			<ul>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods1_48x48.jpg"  alt="2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="underline title lt">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+					<span class="price rt">￥29.9</span>
+					<span class="info lt">颜色：纯黑色&nbsp;尺码：均码</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods1_48x48.jpg"  alt="2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="underline title lt">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+					<span class="price rt">￥29.9</span>
+					<span class="info lt">颜色：纯黑色&nbsp;尺码：均码</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods2_48x48.jpg"  alt="2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="underline title lt">2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙</a>
+					<span class="price rt">￥119.7</span>
+					<span class="info lt">颜色：黑色&nbsp;尺码：M</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods3_48x48.jpg"  alt="冬季新款  韩版时尚修身气质仿貉子大毛领短款加厚保暖棉服" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="underline title lt">冬季新款  韩版时尚修身气质仿貉子大毛领短款加厚保暖棉服</a>
+					<span class="price rt">￥49.91</span>
+					<span class="info lt">颜色：白色&nbsp;尺码：M</span>
+					<span class="del rt">删除</span>
+				</li>
+			</ul>
+			<div class="gotoCart">
+				<a href="http://cart.mogujie.com/cart/mycart" target="_blank" class="underline">查看购物车</a>
+			</div>
+		</div>
+		<ul id="customerSevice_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.mogujie.com/help" target="_blank">消费者服务</a></li>
+			<li class="lihover"><a href="http://service.xiaodian.com" target="_blank">商家服务</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/rule/index" target="_blank">规则中心</a></li>
+		</ul>
+		<ul id="myStore_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.xiaodian.com/pc/shopadmin/shopface" target="_blank">管理后台</a></li>
+			<li class="lihover"><a href="http://bbs.xiaodian.com" target="_blank">商家社区</a></li>
+			<li class="lihover"><a href="http://peixun.xiaodian.com" target="_blank">商家培训</a></li>
+			<li class="lihover"><a href="http://www.xiaodian.com/pc/joinmarket" target="_blank">市场入驻</a></li>
+		</ul>
+		<script type="text/javascript" src="js/topNav.js"></script>
+		
+		<div id="header_title" class="wrapall">
+			<div class="wrap">
+				<div class="logo lt"><a href="http://www.mogujie.com/?mt=12.14360.r130400.18031&acm=3.mce.1_10_18ezy.14360.0.qvKq3u8ex9E.m_196315"></a></div>
+				<div class="process_bar rt">
+					<div class="myProcess_bar">
+						<div class="step step1"></div>
+						<i class="myProcessi myprocessi1">
+							1
+							<span class="myprocesstip">购物车</span>
+						</i>
+						<i class="myProcessi myprocessi2">
+							2
+							<span class="myprocesstip">确认订单</span>
+						</i>
+						<i class="myProcessi myprocessi3">
+							3
+							<span class="myprocesstip">支付</span>
+						</i>
+						<i class="myProcessi myprocessi4">
+							<img src="img/shoppingCart/right.png" width="23px" height="23px"/>
+							<span class="myprocesstip">完成</span>
+						</i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="container" class="wrapall">
+			<div class="wrap">
+				<ul>
+					<li><a href="" class="cardslide_item cart_slide_item_cur">全部商品(<span class="num">4</span>)</a></li>
+					<li class="cartslide_line">|</li>
+					<li ><a href="" class="cardslide_item">优惠(<span class="cou_num">2</span>)</a></li>
+					<li class="cartslide_line">|</li>
+					<li><a href="" class="cardslide_item">库存紧张(<span class="all_num">0</span>)</a></li>
+				</ul>
+				<div id="cartPage">
+					<table>
+						<thead>
+							<tr>
+								<th class="selectAll">
+									<input type="checkbox" name="sel_all" id="hSel_all" class="sel_all quanxuan typeCheck" />
+									<label for="hSel_all">全选</label>
+								</th>
+								<th class="goods  center">商品</th>
+								<th class="goodsInfo">商品信息</th>
+								<th class="goodsPrice  center">单价(元)</th>
+								<th class="goodsNum  center">数量</th>
+								<th class="goodscounts  center">小计(元)</th>
+								<th class="goodsOperat  center">操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr id="shopTitle1"  class="shopTitle">
+								<td colspan="7" class="groupHead">
+									<input type="checkbox" name="sel_shopall" id="sel_shopall1" class="sel_shopall typeCheck shop_all sel_shopall0" />
+									<label class="lightgray" for="sel_shopall1">店铺:</label>
+									<a href="http://shop.mogujie.com/1512w" target="_blank" class="underline">Ladyxiong熊小姐</a>
+									<a href="" class="conntact_btn"></a>
+									<ul class="rt sale">
+										<li>满89元减3</li>
+										<li>
+											<span class="saleText">优惠券:</span>
+											<div  class="lingqu">领取<i></i></div>
+											<div class="coupons_box">
+												<a href="javascript:;" class="close"></a>
+												<div class="coupons clear">
+													<ul>
+														<li class="youhui">
+															<p class="value lt">￥2</p>
+															<p class="cp_title cp_text lt">购物满2件立减</p>
+															<p class="draw rt">领取</p>
+															<p class="cp_time cp_text lt">2016.9.14-2017.1.26</p>
+														</li>
+														<li class="youhui">
+															<p class="value lt">￥3</p>
+															<p class="cp_title cp_text lt">购物满89元立减</p>
+															<p class="draw rt">领取</p>
+															<p class="cp_time cp_text lt">2016.10.29-2017.1.30</p>
+														</li>
+														<li class="youhui">
+															<p class="value lt">￥5</p>
+															<p class="cp_title cp_text lt">购物满129元立减</p>
+															<p class="draw rt">领取</p>
+															<p class="cp_time cp_text lt">2016.10.29-2017.1.30</p>
+														</li>
+														<li class="youhui">
+															<p class="value lt">￥10</p>
+															<p class="cp_title cp_text lt">购物满199元立减</p>
+															<p class="draw rt">领取</p>
+															<p class="cp_time cp_text lt">2016.11.23-2017.3.3</p>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</td>
+							</tr>
+							
+							
+							
+							<script>
+								//领取
+			if(window.addEventListener){
+				window.addEventListener('load',navHover,false);
+			}else{
+				window.attachEvent('onload',navHover);
+			}
+			function navHover(){
+				var lingqu=$(".lingqu")[0];
+				var coupons_box=$(".coupons_box")[0]
+				lingqu.onmouseover=function(){
+					changeMode(coupons_box,'block');
+					getDistance(coupons_box,this);
+				}
+				lingqu.onmouseout=function(){
+					changeMode(coupons_box,'none');
+				}
+				coupons_box.onmouseover=function(){
+					changeMode(coupons_box,'block');
+				}
+				coupons_box.onmouseout=function(){
+					changeMode(coupons_box,'none');
+				}
+				function changeMode(elem,mode){
+					elem.style.display=mode;
+				}
+			}
+							</script>
+							
+							
+							
+							
+							<tr class="shopInfo same_shop0">
+								<td class="selectAll shop_shang">
+									<input type="checkbox" name="select" class="select select0 select typeCheck shangpin" />
+								</td>
+								<td class="goods">
+									<a href="http://shop.mogujie.com/detail/1k34b3g?ptpfrom=am1.0Ub32woe.2kLJodhn.1.HswF44" target="_blank" class="goods_img">
+										<img src="img/shoppingCart/goods1_100x100.jpg" alt="2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤" />
+									</a>
+									<a href="http://shop.mogujie.com/detail/1k34b3g?ptpfrom=am1.0Ub32woe.2kLJodhn.1.HswF44" class="underline" target="_blank">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+								</td>
+								<td class="goodsInfo">
+									<p>颜色：纯黑色</p>
+									<p>尺码：均码</p>
+								</td>
+								<td class="goodsPrice  center">
+									<p class="linethrough lightgray">42.72</p>
+									<p class="now_Price">29.90</p>
+									<p class="Price_rate">7折</p>
+								</td>
+								<td class="goodsNum  center">
+									<div class="count_num">
+										<span class="countNum_add"></span>
+										<input type="text" value="1" class="countNum_inp" />
+										<span class="countNum_reduce disabled"></span>
+									</div>
+								</td>
+								<td class="goodscounts  center">
+									<p class="priceCounts priceCounts0">39.90</p>
+								</td>
+								<td class="goodsOperat  center">
+									<a href="javascript:;" class="underline delcont">删除</a>
+								</td>
+							</tr>
+							
+							<tr  id="shopTitle2"  class="shopTitle">
+								<td colspan="7" class="groupHead">
+									<input type="checkbox" name="sel_shopall" id="sel_shopall2" class="sel_shopall shop_all typeCheck sel_shopall1" />
+									<label class="lightgray" for="sel_shopall">店铺:</label>
+									<a href="http://shop.mogujie.com/14e9k" target="_blank" class="underline">轩轩格调</a>
+									<a href="" class="conntact_btn"></a>
+									<img src="img/shoppingCart/quality.png" height="14px" />
+								</td>
+							</tr>
+							<tr class="shopInfo same_shop1">
+								<td class="selectAll shop_shang">
+									<input type="checkbox" name="select" class="select select1 typeCheck shangpin" />
+								</td>
+								<td class="goods">
+									<a href="http://shop.mogujie.com/detail/1k4cvvy?ptpfrom=am1.MpBfmDPc.0.1.93mPSi" target="_blank" class="goods_img">
+										<img src="img/shoppingCart/goods2_100x100.jpg" alt=" 2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙 " />
+									</a>
+									<a href="http://shop.mogujie.com/detail/1k34b3g?ptpfrom=am1.0Ub32woe.2kLJodhn.1.HswF44" class="underline" target="_blank"> 2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙 </a>
+								</td>
+								<td class="goodsInfo">
+									<p>颜色：黑色</p>
+									<p>尺码：M</p>
+								</td>
+								<td class="goodsPrice  center">
+									<p class="linethrough lightgray">71.30</p>
+									<p class="now_Price">49.91</p>
+									<p class="Price_rate">7折</p>
+								</td>
+								<td class="goodsNum  center">
+									<div class="count_num">
+										<span class="countNum_add"></span>
+										<input type="text" value="1" class="countNum_inp" />
+										<span class="countNum_reduce disabled"></span>
+									</div>
+								</td>
+								<td class="goodscounts  center">
+									<p class="priceCounts priceCounts1">49.91</p>
+								</td>
+								<td class="goodsOperat  center">
+									<a href="javascript:;" class="underline delcont">删除</a>
+								</td>
+							</tr>
+							<tr  id="shopTitle3" class="shopTitle">
+								<td colspan="7" class="groupHead">
+									<input type="checkbox" name="sel_shopall" id="sel_shopall3" class="sel_shopall typeCheck shop_all sel_shopall2" />
+									<label class="lightgray" for="sel_shopall3">店铺:</label>
+									<a href="http://shop.mogujie.com/14e9k" target="_blank" class="underline">思Baby</a>
+									<a href="" class="conntact_btn"></a>
+									<img src="img/shoppingCart/quality.png" height="14px" />
+								</td>
+							</tr>
+							<tr class="shopInfo same_shop2">
+								<td class="selectAll shop_shang">
+									<input type="checkbox" name="select" class="select select2 typeCheck shangpin" />
+								</td>
+								<td class="goods">
+									<a href="" target="_blank" class="goods_img">
+										<img src="img/shoppingCart/goods3_100x100.jpg" alt=" 2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙 " />
+									</a>
+									<a href="http://shop.mogujie.com/detail/1k34b3g?ptpfrom=am1.0Ub32woe.2kLJodhn.1.HswF44" class="underline" target="_blank"> 冬季新款  韩版时尚修身气质仿貉子大毛领短款加厚保暖棉服 </a>
+								</td>
+								<td class="goodsInfo">
+									<p>颜色：白色</p>
+									<p>尺码：M</p>
+								</td>
+								<td class="goodsPrice  center">
+									<p class="linethrough lightgray">71.30</p>
+									<p class="now_Price">119.70</p>
+									<p class="Price_rate">7折</p>
+								</td>
+								<td class="goodsNum  center">
+									<div class="count_num">
+										<span class="countNum_add"></span>
+										<input type="text" value="1" class="countNum_inp" />
+										<span class="countNum_reduce disabled"></span>
+									</div>
+								</td>
+								<td class="goodscounts  center">
+									<p class="priceCounts priceCounts2">119.70</p>
+								</td>
+								<td class="goodsOperat  center">
+									<a href="javascript:;" class="underline  delcont">删除</a>
+								</td>
+							</tr>
+							<tr  id="shopTitle4" class="shopTitle">
+								<td colspan="7" class="groupHead">
+									<input type="checkbox" name="sel_shopall" id="sel_shopall3" class="sel_shopall typeCheck shop_all sel_shopall2" />
+									<label class="lightgray" for="sel_shopall3">店铺:</label>
+									<a href="http://shop.mogujie.com/14e9k" target="_blank" class="underline">思Baby</a>
+									<a href="" class="conntact_btn"></a>
+									<img src="img/shoppingCart/quality.png" height="14px" />
+								</td>
+							</tr>
+							<tr class="shopInfo same_shop3">
+								<td class="selectAll shop_shang">
+									<input type="checkbox" name="select" class="select select0 typeCheck shangpin" />
+								</td>
+								<td class="goods">
+									<a href="http://shop.mogujie.com/detail/1k34b3g?ptpfrom=am1.0Ub32woe.2kLJodhn.1.HswF44" target="_blank" class="goods_img">
+										<img src="img/shoppingCart/goods1_100x100.jpg" alt="2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤" />
+									</a>
+									<a href="http://shop.mogujie.com/detail/1k34b3g?ptpfrom=am1.0Ub32woe.2kLJodhn.1.HswF44" class="underline" target="_blank">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+								</td>
+								<td class="goodsInfo">
+									<p>颜色：纯黑色</p>
+									<p>尺码：均码</p>
+								</td>
+								<td class="goodsPrice  center">
+									<p class="linethrough lightgray">42.72</p>
+									<p class="now_Price">29.90</p>
+									<p class="Price_rate">7折</p>
+								</td>
+								<td class="goodsNum  center">
+									<div class="count_num">
+										<span class="countNum_add"></span>
+										<input type="text" value="1" class="countNum_inp" />
+										<span class="countNum_reduce disabled"></span>
+									</div>
+								</td>
+								<td class="goodscounts  center">
+									<p class="priceCounts priceCounts0">29.90</p>
+								</td>
+								<td class="goodsOperat  center">
+									<a href="javascript:;" class="underline delcont">删除</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="cartBox">
+					<input type="checkbox" id="fsel_all" class="sel_all fsel_all quanxuan typeCheck" name="sel_all" />
+					<label for="fsel_all">全选</label>
+					<a href="" class="underlinenow" id="cartRemoveCheck">删除</a>
+					<a href="" class="underlinenow" id="cartRemoveUnuse">清空失效商品</a>
+					<a href="" class="underlinenow" id="cartRemoveToCollect">移入收藏夹</a>
+					<div class="rt">
+						<div class="goodsNumCount lt">
+							共有<span>0</span>件商品，总计：
+						</div>
+						<div class="goodsPriceCount lt">¥ <span class="totalMoney">0.00</span></div>
+						<a href=""  id="payBtn" class="payBtn_disable"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer" class="wrapall">
+			<div class="wrap">
+				<p>
+					<a class="underline" href="http://www.mogujie.com" target="_blank">蘑菇街</a>|
+					<a class="underline" href="http://www.mogujie.com/joinin" target="_blank">加入开放平台</a>
+			        &copy;2016 Mogujie.com,All Rights Reserved.
+				</p>
+				<div class="icons">
+					<a class="vs" href="#"></a>
+					<a class="mc" href="#"></a>
+					<a class="up" href="#"></a>
+					<a class="pa" href="#"></a>
+					<a class="kx" href="#"></a>
+					<a class="pc" href="#"></a>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/shoppingCart.js"></script>
+		<script type="text/javascript" src="js/removeNode.js"></script>
+		<script src="js/shoppingCartSelect.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

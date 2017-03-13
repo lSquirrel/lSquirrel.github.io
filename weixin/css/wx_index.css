@@ -1,0 +1,148 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	background: #eee;
+}
+body{
+	padding: 44px 0 50px;
+}
+/*header start*/
+.header{
+	z-index: 9999;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 44px;
+	background: #323232;
+	line-height: 44px;
+	padding: 0 1em;
+}
+.header p,.header i{
+	color: #fafafa;
+}
+.header li:first-child{
+	margin-right: 3em;
+}
+.header li:active{/*手机端没有hover,只有按下去*/
+	opacity: .7;
+}
+/*header end*/
+
+/*section start*/
+/**/
+.list{
+	padding: .5em;
+	border-bottom: 1px solid #eee;
+	background: #fff;
+}
+.pic{
+	width: 3em;
+	height: 3em;
+	margin-right: 0.5em;
+}
+.list dd{
+	font-size: .8em;
+	color: #666;
+	margin-top: .4em;
+}
+.list time{
+	color: #bbb;
+}
+.list dl.box-flex-1{
+	width: 0px;
+}
+/*通讯录*/
+.person img{
+	width: 2em;
+	height: 2em;
+	margin-right: .5em;
+}
+.person .list{
+	line-height: 2em;
+}
+.mark{
+	padding: .2em 1em;
+	font-size: .75em;
+	color: #666;
+}
+/*发现*/
+.find ul{
+	background: #fff;
+	margin: 1em 0;
+}
+.find .list{
+	padding: 1em;
+}
+.find .list i{
+	margin-right: 1em;
+}
+.find .list img{
+	width: 1.2em;
+	height: 1.2em;
+}
+/*我*/
+.user-pic{
+	width: 4em !important;
+	height: 4em !important;
+}
+.user dl{
+	padding: .8em;
+}
+.user .scan{
+	margin-top: 1.2em;
+}
+.sectDisplay{
+	display: none;
+}
+
+/*section end*/
+
+/*footer start*/
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 44px;
+	background: #fafafa;
+}
+.footer li{
+	height: 50px;
+	text-align: center;
+	z-index: 1;/*li被footer添加的.border盖住了，无法点击*/
+}
+/*添加激活样式*/
+.footer li.active i,.footer li.active p{
+	color: #099810;
+}
+.footer li.active .icon-msg:before{
+	content: '\e6c2';/*激活状态下，通过改变before的content，改变图标样式，参见style.css*/
+}
+.footer li.active .icon-uniE68E:before{
+	content: '\e6be';
+}
+.footer li.active .icon-uniE77C:before{
+	content: '\e77d';
+}
+.footer li.active .icon-uniE792:before{
+	content: '\e793';
+}
+.footer i{
+	display: block;
+	margin: 0.4em 0 0.3em;
+	font-size: 1.4em;
+	font-weight: 600;
+	color: #666;
+}
+.footer i.icon-uniE68E{/*第二个图标有点小，改一下*/
+	font-size: 1.6em;
+	margin-bottom: .15em;
+	margin-top: .3em;
+}
+.footer p{
+	font-size: .76em;
+	color: #666;
+}
+/*footer end*/

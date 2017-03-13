@@ -1,0 +1,215 @@
+body{
+	background: #fff; /*防止用户修改自己的操作系统默认的颜色造成的影响*/
+	font:12px/1.6 tahoma,arial,sans-serif;
+	color:#333;
+}
+.lt{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.width{
+	width: 1200px;
+	margin: 0 auto;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+a{
+	color: #333;
+}
+#footprint_nav{
+	border-bottom: 1px solid #ddd;
+	height: 71px;
+}
+.fp_logo{
+	float: left;
+	display: block;
+	width: 145px;
+	height: 55px;
+	line-height: 55px;
+	margin: 8px 40px 8px 0;
+	font-size: 31px;
+	color: #f36;
+}
+#footprint_nav ul{
+	float: left;
+	margin: 20px 70px 8px 0;
+}
+#footprint_nav ul li{
+	float: left;
+	background: url(../img/footprint/footprintIcon_100x400.png) -98px -214px no-repeat;
+	position: relative;
+}
+#footprint_nav ul li:first-child{
+	background: none;
+}
+#footprint_nav ul li a{
+	display: block;
+	margin: 1px 33px;
+	font-size: 14px;
+	line-height: 25px;
+}
+#footprint_nav ul li.thisPage a{
+	background: #fff;
+	color: #FF3366;
+	border-bottom: 1px solid #f36;
+}
+#footprint_wrap{
+	margin-bottom: 80px;
+}
+#footprint_wrap .fpw_nav{
+	background: #F2F2F2;
+}
+#footprint_wrap .fpw_nav li{
+	float: left;
+}
+#footprint_wrap .fpw_nav li a{
+	float: left;
+	height: 47px;
+	line-height: 47px;
+	padding: 0 25px;
+	font-size: 15px;
+}
+#footprint_wrap .fpw_nav li a.clickTitle{
+	font-weight: bold;
+	color: #fc3c75;
+}
+#footprint_wrap .fpw_nav i{
+	height: 15px;
+	padding-right: 3px;
+	display: inline-block;
+	background-image: url(../img/footprint/footprintWrapIcon_161x35.png);
+	width: 17px;
+}
+#footprint_wrap .fpw_wrap{
+	padding-left: 23px;
+}
+#footprint_wrap .fpww_box{
+	border-left: 2px solid #F4F4F4;
+	padding-left: 5px;
+}
+#footprint_wrap .fpww_section{
+	padding-top: 40px;
+	margin-left: 15px;
+	margin-top: -5px;
+}
+#footprint_wrap h3{
+	margin-left: -28px;
+	padding-left: 28px;
+	font-weight: 400;
+	background: url(../img/footprint/footprintWrapIcon_20x120.png) 0 -68px no-repeat;
+}
+#footprint_wrap h3 b{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	padding-right: 11px;
+	color: #333;
+	font-size: 18px;
+	font-weight: 400;
+	background: url(../img/footprint/footprintWrapIcon_20x120.png) no-repeat right -100px;
+}
+#footprint_wrap .fpww_item{
+	float: left;
+	width: 220px;
+	display: inline;
+	margin: 15px 0 0 15px;
+}
+#footprint_wrap .fpwwi_image{
+	position: relative;
+	display: block;
+	height: 330px;
+	overflow: hidden;
+	width: 220px;
+	background: #f5f5f5;
+}
+#footprint_wrap .fpwwi_title{
+	height: 20px;
+	padding: 0 10px;
+	line-height: 20px;
+	overflow: hidden;
+	color: #666;
+	font-size: 12px;
+}
+#footprint_wrap .fpwwi_info{
+	padding: 0 10px 10px;
+	line-height: 23px;
+}
+.salePrice{
+	display: block;
+	float: left;
+	color: #F36;
+	font-size: 14px;
+}
+.price{
+	position: relative;
+	display: block;
+	float: right;
+	color: #a8a8a8;
+	font-size: 10px;
+	text-decoration: line-through;
+}
+
+/*footer部分*/
+.foot_width{
+	width: 1200px;
+	margin: 0 auto;
+}
+#footer{
+	width: 100%;
+	background-image: url(../img/index/footerbcimg.jpg);
+	border-top: 1px solid #D9D9D9;
+}
+#footer_top{
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-bottom: 1px solid #E5E5E5;
+}
+#footer_top>ul>li{
+	margin:5px 100px 20px 0;
+	float: left;
+	height: 180px;
+}
+#footer_top_left{
+	width: 250px;
+}
+#footer_top_left div{
+	font-size: 12px;
+	color: #999;
+	line-height: 22px;
+}
+#footer_top_left div a{
+	color: #999;
+}
+.footer_top_center ul li:first-child{
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.footer_top_center a{
+	color: #666;
+	font-size: 12px;
+	line-height: 25px;
+}
+#footer_top_right a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+#footer_bottom{
+	height: 50px;
+	margin: 0 auto;
+}
+#footer_bottom ul li{
+	float: left;
+	font-size: 12px;
+	margin:10px 20px 0 0;
+}
+#footer_bottom ul li a{
+	color: #4D4D4D;
+}

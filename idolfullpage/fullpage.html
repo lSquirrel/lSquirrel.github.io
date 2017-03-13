@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>fullPage</title>
+<link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+<style>
+	.section{
+	font: 50px "Microsoft Yahei"; 
+	color: #fff;
+	position: relative;
+	}
+	.section1{
+		background-image: url(img/fullpage/fullpage_bg06.jpg);
+		background-size: cover;
+	}
+	.section2{
+		background-image: url(img/fullpage/page2_bg.jpg);
+		background-size: cover;
+	}
+	.section3{
+		background-image: url(img/fullpage/fullpage_bg09.JPG);
+		background-size: cover;
+		background-position-y: -50px;
+	}
+	.section4{
+		background-image: url(img/fullpage/fullpage_bg07.jpg);
+		background-size: cover;
+		background-position-y: -350px;
+	}
+	.section5{
+		background-image: url(img/fullpage/fullpage_bg18.jpg);
+		background-size: cover;
+	}
+	.section6{
+		background-image: url(img/fullpage/922808.jpg);
+		background-size: cover;
+	}
+	#menu { 
+		margin: 0; 
+		padding: 0; 
+		position: fixed; 
+		left: 10px; 
+		top: 10px; 
+		list-style-type: none; 
+		z-index: 70;
+	}
+	#menu li { 
+		font-size: 14px;
+	}
+	#menu a { 
+		min-width: 60px;
+		text-align: center;
+		margin:  7px 0px 0 20px; 
+		border-radius: 20px;
+		float: left; 
+		padding: 10px 20px; 
+		background-color: rgba(255,255,255,0.5); 
+		color: #333; 
+		text-decoration: none;
+	}
+	#menu .active a { 
+		color: #fff;
+		background-color: rgba(50,50,50,0.5);
+		box-shadow: 0 0 20px #fff;
+	}
+</style>
+<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.fullPage.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	$(function(){
+		$('#dowebok').fullpage({
+			sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+			easing:"easeInQuint",
+			anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+			menu: '#menu',
+			navigation:true,
+			navigationPosition:"right",
+			css3:false,	
+			afterRender:function(){
+				$(".section1 .label").each(function(index){
+					$(this).delay(500).animate({
+						"top":$(".section1 .label").eq(index).attr("data-pretop"),
+						"left":$(".section1 .label").eq(index).attr("data-preleft")
+					},1500,"easeOutExpo");
+				});
+			},
+			afterLoad: function(anchorLink, index){
+				if(index==1){
+					$(".section1 .label").each(function(index){
+						$(this).delay(500).animate({
+							"top":$(".section1 .label").eq(index).attr("data-pretop"),
+							"left":$(".section1 .label").eq(index).attr("data-preleft")
+						},1500,"easeOutExpo");
+					});
+				}
+				if(index == 2){
+					$('.section2 .page2_top').delay(500).animate({
+						left: '70px'
+					}, 1500, 'easeOutExpo');
+					$('.section2 .page2_bottom').delay(500).animate({
+						left: '70px'
+					}, 1500, 'easeOutExpo');
+				}
+				if(index == 3){
+					$('.section3 .page3_fen').delay(200).animate({
+						"top": '31%'
+					}, 1500, 'easeInOutBounce');
+					$('.section3 .page3_se').delay(400).animate({
+						"top": '23%'
+					}, 1500, 'easeInOutBounce');
+					$('.section3 .page3_xin').delay(600).animate({
+						"top": '15%'
+					}, 1500, 'easeInOutBounce');
+					$('.section3 .page3_jian').delay(800).animate({
+						"top": '12%'
+					}, 1500, 'easeInOutBounce');
+					$(".page3_image_wrap").delay(200).animate({
+						"top":"27%"
+					}, 1500, 'easeOutExpo');
+					$(".page3_content").delay(900).animate({
+						"height":"400px"
+					},5000,'easeOutExpo');
+				}
+				if(index == 4){
+					$(".page4_img1").delay(100).animate({
+						"top":"30%"
+					},1500,'easeOutExpo');
+					$(".page4_imgshow").fadeIn(2000);
+					$(".section4 pre").delay(200).animate({
+						"left":"75%"
+					},1500,'easeOutExpo');
+				}
+				if(index==5){
+					$(".page5_con").each(function(index){
+						$(this).delay(500).animate({
+							"top":$(".page5_con").eq(index).attr("data-afttop"),
+							"left":$(".page5_con").eq(index).attr("data-aftleft")
+						},1500,'easeOutExpo');
+					});
+				}
+				if(index==6){
+					$(".section6_top p").delay(300).animate({
+						"bottom":"55%"
+					},1500,"easeOutExpo");
+					$(".section6_top img").delay(300).animate({
+						"opacity":"0.5"
+					},1500);
+				}
+			},
+			onLeave: function(index, direction){
+				if(index==1){
+					$(".section1 .label").each(function(index){
+						$(this).delay(500).animate({
+							"top":$(".section1 .label").eq(index).attr("data-afttop"),
+							"left":$(".section1 .label").eq(index).attr("data-aftleft")
+						},1500,"easeOutExpo");
+					});
+				}
+				if(index == '2'){
+					$('.section2 .page2_top').delay(500).animate({
+						left: '120%'
+					}, 1500, 'easeOutExpo');
+					$('.section2 .page2_bottom').delay(500).animate({
+						left: '-120%'
+					}, 1500, 'easeOutExpo');
+				}
+				if(index == '3'){
+					$('.section3 .page3_fen').delay(100).animate({
+						"top": '-220%'
+					}, 1500, 'easeOutExpo');
+					$('.section3 .page3_se').delay(100).animate({
+						"top": '-220%'
+					}, 1500, 'easeOutExpo');
+					$('.section3 .page3_xin').delay(100).animate({
+						"top": '-220%'
+					}, 1500, 'easeOutExpo');
+					$('.section3 .page3_jian').delay(100).animate({
+						"top": '-220%'
+					}, 1500, 'easeOutExpo');
+					$(".page3_image_wrap").delay(200).animate({
+						"top":"120%"
+					});
+					$(".page3_content").animate({
+						"height":"0px"
+					},500,'easeOutExpo');
+				}
+				if(index == '4'){
+					$(".page4_img1").delay(100).animate({
+						"top":"-350%"
+					},1500,"easeOutExpo");
+					$(".page4_imgshow").fadeOut(2000);
+					$(".section4 pre").delay(200).animate({
+						"left":"120%"
+					},1500,'easeOutExpo');
+				}
+				if(index==5){
+					$(".page5_con").each(function(index){
+						$(this).delay(200).animate({
+							"top":$(".page5_con").eq(index).attr("data-pretop"),
+							"left":$(".page5_con").eq(index).attr("data-preleft")
+						},1500,'easeOutExpo');
+					});
+				}
+				if(index==6){
+					$(".section6_top p").delay(500).animate({
+						"bottom":"-120%"
+					},1500,"easeOutExpo");
+					$(".section6_top img").delay(300).animate({
+						"opacity":"1"
+					},1500);
+				}
+			}
+		});
+		$(".page2_bottom li").each(function(index){
+			$(this).hover(function(){
+				$(this).find("img").animate({"width":"200px","height":"200px"},500);
+				$(this).animate({"margin":"0px"},500).addClass("boxShadow");
+			},function(){
+				$(this).find("img").animate({"width":"180px","height":"180px"},500);
+				$(this).animate({"margin":"0px 10px 0 10px"},500).removeClass("boxShadow");
+			});
+		});
+
+		
+	});
+</script>
+</head>
+
+<body>
+<ul id="menu">
+	<li data-menuanchor="page1" class="active"><a href="#page1">许&nbsp;嵩</a></li>
+	<li data-menuanchor="page2"><a href="#page2">专&nbsp;辑</a></li>
+	<li data-menuanchor="page3"><a href="#page3">粉色信笺</a></li>
+	<li data-menuanchor="page4"><a href="#page4">平行宇宙</a></li>
+	<li data-menuanchor="page5"><a href="#page5">热门歌单</a></li>
+	<li data-menuanchor="page6"><a href="#page6">雅俗共赏</a></li>
+</ul>
+<div id="dowebok">
+	<div class="section section1">
+		<div class="section1_top">
+			<div class="page1_center">许&nbsp;嵩</div>
+			<div class="touxiang_wrap label" data-pretop="100px" data-preleft="850px"  data-afttop="-120%" data-aftleft="120%"><img src="img/fullpage/touxiang.jpg"/></div>
+			<div class="page1_label1 label" data-pretop="300px" data-preleft="350px"  data-afttop="300px" data-aftleft="-120%">
+				音乐<span>创作人</span>
+			</div>
+			<div class="page1_label2 label" data-pretop="430px" data-preleft="850px"  data-afttop="120%" data-aftleft="120%">
+				音乐<span>鬼才</span>
+			</div>
+			<div class="page1_label3 label" data-pretop="140px" data-preleft="550px"  data-afttop="-120%" data-aftleft="550px">许式情歌</div>
+			<div class="page1_label4 label" data-pretop="480px" data-preleft="400px"  data-afttop="120%" data-aftleft="-120%">中国风</div>
+			<div class="page1_label5 label" data-pretop="230px" data-preleft="230px"  data-afttop="-120%" data-aftleft="-120%">vae</div>
+			<div class="page1_label6 label" data-pretop="190px" data-preleft="340px"  data-afttop="-120%" data-aftleft="-120%">批判性</div>
+			<div class="page1_label7 label" data-pretop="530px" data-preleft="580px"  data-afttop="120%" data-aftleft="580px">海上灵光</div>
+			<div class="page1_label8 label" data-pretop="530px" data-preleft="180px"  data-afttop="120%" data-aftleft="-120%">有态度</div>
+		</div>
+	</div>
+	<div class="section section2">
+		<h3>专&nbsp;&nbsp;辑</h3>
+		<ul class="page2_top">
+			<li class="page2_title">自定义</li>
+			<li class="page2_title">寻雾启事</li>
+			<li class="page2_title">苏格拉没有底</li>
+			<li class="page2_title">梦游记</li>
+			<li class="page2_title">不如吃茶去</li>
+			<li class="page2_title">青年晚报</li>
+		</ul>
+		<ul class="page2_bottom">
+			<li><img src="img/fullpage/page2_image03.jpg"/></li>
+			<li><img src="img/fullpage/page2_image06.jpg"/></li>
+			<li><img src="img/fullpage/page2_image04.jpg"/></li>
+			<li><img src="img/fullpage/page2_image02.jpg"/></li>
+			<li><img src="img/fullpage/page2_image01.jpg"/></li>
+			<li><img src="img/fullpage/page2_image05.jpg"/></li>
+		</ul>
+	</div>
+	<div class="section section3">
+		<div class="page3_image_wrap">
+			<img src="img/fullpage/page3_xinzhi.jpg"/>
+		</div>
+		<span class="page3_fen">粉</span>
+		<span class="page3_se">色</span>
+		<span class="page3_xin">信</span>
+		<span class="page3_jian">笺</span>
+		<pre class="page3_content">
+这世界
+纷纷扰扰流言
+烦恼和快乐
+各自在堆叠
+和你远行去海边
+暗喜你浅浅酒窝浮现
+潮起潮落是我指使的表演
+粉色的信笺
+盛满我的思念
+风掠过的瞬间
+一转眼就不见
+飘洋过海陪伴在你身边
+		</pre>
+	</div>
+	<div class="section section4">
+		<div class="page4_img1">
+			<img src="img/fullpage/page4_image.png"/>
+			<div class="page4_title">
+				平&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;行&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;宇&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;宙
+			</div>
+		</div>
+		<div class="page4_img2 page4_imgshow">
+			<img src="img/fullpage/page4_image01.png"/>
+		</div>
+		<div class="page4_img3 page4_imgshow">
+			<img src="img/fullpage/page4_image02.png"/>
+		</div>
+		<pre>
+深爱过 
+所以没有
+再联络
+不回头 
+因为勉强的笑
+很难受
+深爱过 
+真心感谢你
+陪我度过
+那几年 
+苦中有甜的生活
+		</pre>
+	</div>
+	<div class="section section5">
+		<div class="page5_right page5_con" data-pretop = "16%" data-preleft = "120%" data-afttop = "16%" data-aftleft = "44%" >
+			<img src="img/fullpage/page5_image01.jpg"/>
+			<div class="page5_right_pwrap">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当时的我想<span class="page5_rightcolor">不到今天</span></p>
+				<p>&nbsp;&nbsp;&nbsp;错过的人回不<span class="page5_rightcolor">到从前</span></p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当时的你静<span class="page5_rightcolor">静坐在我的左手边</span></p>
+				<p><span class="page5_big">梧桐灯</span><span class="page5_rightcolor">下是你静美的侧脸</span></p>
+			</div>
+		</div>
+		<div class="page5_top page5_con" data-pretop = "-520%" data-preleft = "21%" data-afttop = "0px" data-aftleft = "21%" >
+			<p>&nbsp;最佳歌手的头衔</p>
+			<p>&nbsp;&nbsp;&nbsp;大致上也有人选</p>
+			<p><span class="page5_big">最佳歌手</span>的感言</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记得要慢慢念</p>
+			<img src="img/fullpage/QQ20160915211838.jpg"/>
+		</div>
+		<div class="page5_left page5_con" data-pretop = "54%" data-preleft = "-120%" data-afttop = "54%" data-aftleft = "12%" >
+			<p>&nbsp;&nbsp;他们说快写一首情歌</p>
+			<p class="page5_big">&nbsp;&nbsp;&nbsp;雅俗共赏</p>
+			<p>落笔传神还要容易传唱</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上得厅堂也下得厨房</p>
+			<p>&nbsp;就像我一直在找的姑娘</p>
+			<img src="img/fullpage/page5_image.jpg"/>
+		</div>
+		<div class="page5_bottom page5_con" data-pretop = "120%" data-preleft = "59%" data-afttop = "52%" data-aftleft = "59%" >
+			<img src="img/fullpage/page5_image03.jpg"/>
+			<p>寒梅落尽把冬了</p>
+			<p>衔春的<span class="page5_big">燕</span>想<span class="page5_big">归巢</span></p>
+			<p>沿途的景 牵挂的人</p>
+			<p>两情迢迢</p>
+		</div>
+	</div>
+	<div class="section section6">
+		<div class="section6_top">
+			<img src="img/fullpage/border.png"/>
+			<p>十年许嵩，雅俗共赏</p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

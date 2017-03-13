@@ -1,0 +1,292 @@
+body{
+	background: #E7E8EB;
+	font:12px/1.6 tahoma,arial,sans-serif;
+	color:#333;
+}
+.width{
+	margin: 0 auto;
+	width: 1200px;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#head{
+	font-size: 14px;
+}
+#head>a{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+#head>div{
+	float: right;
+	height: 30px;
+	line-height: 30px;
+}
+#nav{
+	background: #fff;
+	height: 76px;
+}
+#nav div.width>a{
+	margin: 20px 20px 0 0;
+	display: inline-block;
+}
+#nav ul{
+	float: right;
+}
+#nav ul li{
+	float: left;
+	line-height: 74px;
+	margin-left: 20px;
+}
+#nav ul li a{
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 5px;
+}
+#nav ul li a:hover{
+	color: #f55;
+}
+#nav ul li a.aclick{
+	color: #f55;
+	border-bottom: 2px solid #f55;
+	background: url(../img/purse/pursArrows_8x4.png) no-repeat bottom center;
+}
+#banner{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	height: 110px;
+	background: url(../img/purse/purseBanner_1500x114.jpg) repeat-x;
+}
+#banner>div.width>img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-top: 20px;
+	float: left;
+	cursor: pointer;
+}
+#banner .banner_big{
+	padding: 27px 0 0 20px;
+	font-size: 20px;
+	width: 600px;
+	float: left;
+}
+#banner .banner_sml{
+	font-size: 14px;
+	padding: 30px 20px 0 0;
+	float: right;
+}
+.content{
+	margin-bottom: 20px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+.con1_left{
+	float: left;
+	width: 850px;
+	padding: 0 30px;
+}
+.con1_left h4{
+	padding-top: 20px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.con1_left2{
+	padding: 10px 0 20px;
+	font-size: 14px;
+	border-bottom: 1px solid #F2F2F2;
+}
+.con1_left2>div{
+	float: left;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.con1_left2 ul{
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	font-size: 12px;
+}
+.con1_left2 li{
+	float: left;
+	color: #999999;
+	margin-right: 10px;
+}
+.con1_left2 ul li:first-child a{
+	color: #2ad;
+}
+.con1_left2 a.red{
+	margin: 4px 0 0 20px;
+	min-width: 60px;
+	font-size: 12px;
+	line-height: 12px;
+	background: #f55;
+	color: #fff;
+	padding: 6px 20px;
+}
+.con1_left2 a.red:hover{
+	background: #E53131;
+}
+.con1_left5{
+	padding: 14px 0;
+	border: none;
+}
+#container .con1_left5 a{
+	color: #ff629d;
+}
+#container .con1_left5 h4{
+	width: 50px;
+	line-height: 32px;
+	float: left;
+	padding: 0;
+}
+#container .con1_left5 ul{
+	line-height: 32px;
+	float: left;
+}
+#container .con1_left5 ul li{
+	line-height: 32px;
+	padding-left: 40px;
+	color: #888;
+	background: url(../img/purse/purseIcon_32x240.png) no-repeat;
+}
+#container .con1_left5 ul li.con1_left51{
+	background-position: 6px -100px;
+}
+#container .con1_left5 ul li.con1_left52{
+	background-position: 6px -148px;
+}
+#container .con1_left5 ul li.con1_left53{
+	background-position: 6px -8px;
+}
+#container .con1_left5 ul li.con1_left54{
+	background-position: 6px -53px;
+}
+#container .con1_left5 ul li.con1_left55{
+	background-position: 6px -197px;
+}
+#container .con1_right{
+	border-left: 1px solid #f3f3f3;
+	width: 286px;
+	height: 276px;
+	position: relative;
+	font-size: 12px;
+	float: left;
+}
+#container .con1_right_top{
+	padding-left: 30px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #F3F3F3;
+}
+#container .con1_right_bot{
+	padding: 30px;
+}
+.crt_left{
+	font-size: 16px;
+	padding-right: 15px;
+}
+.crt_right{
+	color: #f55;
+}
+.crt_top{
+	padding: 45px 0 75px;
+	text-align: center;
+}
+.crt_bot{
+	text-align: center;	
+}
+.crt_bot a{
+	font-size: 14px;
+	color: #22AADD;
+}
+.con2_top{
+	background: #fafafa;
+	border-bottom: 1px solid #e7e7e7;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 10px 20px;
+}
+.con2_cen{
+	position: relative;
+	overflow: visible;
+	text-align: center;
+	border-bottom: 1px solid #f3f3f3;
+}
+.con2_cen img{
+	width: 352px;
+	height: 110px;
+	margin-top: 60px;
+}
+.con2_bot a{
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	color: #22AADD;
+}
+
+/*footer部分*/
+.foot_width{
+	width: 1200px;
+	margin: 0 auto;
+}
+#footer{
+	width: 100%;
+	background-image: url(../img/index/footerbcimg.jpg);
+	border-top: 1px solid #D9D9D9;
+}
+#footer_top{
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-bottom: 1px solid #E5E5E5;
+}
+#footer_top>ul>li{
+	margin:5px 100px 20px 0;
+	float: left;
+	height: 180px;
+}
+#footer_top_left{
+	width: 250px;
+}
+#footer_top_left div{
+	font-size: 12px;
+	color: #999;
+	line-height: 22px;
+}
+#footer_top_left div a{
+	color: #999;
+}
+.footer_top_center ul li:first-child{
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.footer_top_center a{
+	color: #666;
+	font-size: 12px;
+	line-height: 25px;
+}
+#footer_top_right a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+#footer_bottom{
+	height: 50px;
+	margin: 0 auto;
+}
+#footer_bottom ul li{
+	float: left;
+	font-size: 12px;
+	margin:10px 20px 0 0;
+}
+#footer_bottom ul li a{
+	color: #4D4D4D;
+}

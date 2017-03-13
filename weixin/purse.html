@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>微信钱包</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wx_purse.css"/>
+		<script type="text/javascript">
+			document.querySelector("html").style.fontSize=document.documentElement.clientWidth/9+"px";
+		</script>
+	</head>
+	<body>
+		<header class="header">
+			<ul class="fl">
+				<li class="fl"><a href="index.html"><i class="icon-iconfontzuojiantou"></i></a></li>
+				<li class="fl">
+					<h2>我的钱包</h2>
+					<h3>微信安全支付</h3>
+				</li>
+			</ul>
+			<p class="title fr"><i class="icon-gengduo"></i></p>
+		</header>
+		<div class="wrapper">
+			<div class="scroller">
+				<ul class="top clearfix">
+					<li class="list">
+						<i class="icon-20"></i>
+						<p>付款</p>
+					</li>
+					<li class="list">
+						<i class="icon-4"></i>
+						<p>零钱</p>
+						<h3>￥10.00</h3>
+					</li>
+					<li class="list">
+						<i class="icon-3"></i>
+						<p>银行卡</p>
+					</li>
+				</ul>
+				<div class="mark clearfix">腾讯服务</div>
+				<ul class="center clearfix">
+					<li class="list">
+						<i class="icon-jixuduihuan" style="color: #FD8E37;"></i>
+						<p>转账</p>
+					</li>
+					<li class="list">
+						<i class="icon-3" style="color: #4E8DCA;"></i>
+						<p>手机充值</p>
+					</li>
+					<li class="list">
+						<i class="icon-licai" style="color: #429CD0;"></i>
+						<p>理财通</p>
+					</li>
+					<li class="list">
+						<i class="icon-qq" style="color: #60B4ED;"></i>
+						<p>Q币充值</p>
+					</li>
+					<li class="list">
+						<i class="icon-shenghuojiaofei" style="color: #06B463;"></i>
+						<p>生活缴费</p>
+					</li>
+					<li class="list">
+						<i class="icon-xiangxidizhi" style="color: #0DAD6A;"></i>
+						<p>城市服务</p>
+					</li>
+					<li class="list">
+						<i class="icon-xinyongqia" style="color: #02AD62;"></i>
+						<p>信用卡还款</p>
+					</li>
+					<li class="list">
+						<i class="icon-iconfontredpacket" style="color: #EA616F;"></i>
+						<p>微信红包</p>
+					</li>
+					<li class="list">
+						<i class="icon-badaxilietubiao05-copy" style="color: #F05E60;"></i>
+						<p>腾讯公益</p>
+					</li>
+				</ul>
+				<div class="mark clearfix">第三方服务</div>
+				<ul class="center clearfix">
+					<li class="list">
+						<i class="icon-didichuhang" style="color: #EE972D;"></i>
+						<p>滴滴出行</p>
+					</li>
+					<li class="list">
+						<i class="icon-huochepiao" style="color: #02BA5C;"></i>
+						<p>火车票机票</p>
+					</li>
+					<li class="list">
+						<i class="icon-jiudian" style="color: #5CA2D0;"></i>
+						<p>酒店</p>
+					</li>
+					<li class="list">
+						<i class="icon-meituanwaimai" style="color: #ED9537;"></i>
+						<p>美团外卖</p>
+					</li>
+					<li class="list">
+						<i class="icon-goose" style="color: #EE605D;"></i>
+						<p>58到家</p>
+					</li>
+					<li class="list">
+						<i class="icon-go2mogujie" style="color: #EE605D;"></i>
+						<p>蘑菇街</p>
+					</li>
+					<li class="list">
+						<i class="icon-gouwudai" style="color: #EE605D;"></i>
+						<p>京东精选</p>
+					</li>
+					<li class="list">
+						<i class="icon-video" style="color: #5B6FA8;"></i>
+						<p>电影票出赛事</p>
+					</li>
+					<li class="list">
+						<i class="icon-dianping1193379easyiconnet" style="color: #FB8E22;"></i>
+						<p>吃喝玩乐</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var scroll=new IScroll(".wrapper",{
+				click:true,//设置是否可以点击
+				mouseWheel:true//设置滚轮滚动时可触发
+			});
+//			阻止touchmove的默认事件，才可以在移动端实现阻尼效果
+			document.addEventListener("touchmove",function(e){
+				e.preventDefault();
+			},false)
+		</script>
+	</body>
+</html>

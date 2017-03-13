@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>足迹-我的蘑菇街-我的买手街</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footprint.css"/>
+		<link rel="stylesheet" type="text/css" href="css/RightAndTop.css"/>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<script src="js/$.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rightBar.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--右侧边栏-->
+		<div id="rightbar">
+			<div class="slideBar_item_img">
+				<a class="slideBar_itema" href="http://www.mogujie.com/member?ptp=1.ii9Gy._sidebar.0.PW6BO">
+					<img src="img/shoppingCart/head.jpg" width="20px" height="20px" class="userhead"/>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="shoppingCart.html" target="_blank" class="slideBar_itema">
+					<i class="bar_icons gouwu"></i>
+					<div class="bar_text">购物车</div>
+					<div class="num slideBar_num">4</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="#" class="slideBar_itema">
+					<i class="bar_icons youhuijuan"></i>
+					<div class="bar_text">优惠券</div>
+					<div class="slideBar_num">2</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="purse.html" target="_blank" class="slideBar_itema">
+					<i class="bar_icons qianbao"></i>
+					<div class="bar_text">钱包</div>
+				</a>
+			</div>
+			<div class="slideBar_item">
+				<a href="javascript:;" class="slideBar_itema">
+					<i class="bar_icons zuji"></i>
+					<div class="bar_text">足迹</div>
+				</a>
+			</div>
+			<div class="slideBottom">
+				<a href="javascript:;" class="slideBar_itema">
+					<i class="bar_icons totop"></i>
+				</a>
+			</div>
+			<script type="text/javascript" src="js/rightBar.js"></script>
+		</div>
+		<!--导航栏-->
+		<div id="header" class="wrapall">
+			<div class="wrap width">
+				<a href="index.html" target="_blank" class="home lt" >蘑菇街首页</a>
+				<ul class="header_top rt">
+					<li id="userName" class="navli"><a href="">用户名</a><b class="icon_delta"></b></li>
+					<li id="message" class="has_line"><a href="">消息</a></li>
+					<li id="myCollect" class="has_line navli"><a href="javascript:;">我的收藏</a><b class="icon_delta"></b></li>
+					<li id="myOrder" class="has_line"><a href="myOrder.html" target="_blank"><b class="myOrder forward"></b>我的订单</a></li>
+					<li id="shopping" class="has_line navli"><a href=""><b class="shopping forward"></b>购物车</a><span class="num">4</span>件</li>
+					<li id="customerSevice" class="has_line navli"><a href="customerService.html" target="_blank">客户服务</a><b class="icon_delta"></b></li>
+					<li id="myStore" class="has_line mystore navli"><a href=""><b class="myStore forward"></b>我的小店</a></li>
+				</li>
+			</div>
+		</div>
+		<ul id="userName_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="accountSet.html" target="_blank">个人设置</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/settings/bind" target="_blank">账号绑定</a></li>
+			<li class="lihover"><a href="load.html" target="_blank">退出</a></li>
+		</ul>
+		<ul id="myCollect_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.mogujie.com/active/favs" target="_blank">收藏的商品</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/active/shopfavs" target="_blank">收藏的小店</a></li>
+			<li class="lihover"><a href="javascript:;">浏览足迹</a></li>
+		</ul>
+		<div id="shopping_child" class="nav_child">
+			<ul>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods1_48x48.jpg"  alt="2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="underline title lt">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+					<span class="price rt">￥29.9</span>
+					<span class="info lt">颜色：纯黑色&nbsp;尺码：均码</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods1_48x48.jpg"  alt="2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k34b3g" target="_blank" class="underline title lt">2016秋冬新款彩棉加厚加绒保暖修身显瘦踩脚九分一体打底裤</a>
+					<span class="price rt">￥29.9</span>
+					<span class="info lt">颜色：纯黑色&nbsp;尺码：均码</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods2_48x48.jpg"  alt="2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="underline title lt">2016秋冬季新款韩版百搭宽松显瘦无袖背带连衣裙</a>
+					<span class="price rt">￥119.7</span>
+					<span class="info lt">颜色：黑色&nbsp;尺码：M</span>
+					<span class="del rt">删除</span>
+				</li>
+				<li>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="imgbox lt">
+						<img src="img/shoppingCart/goods3_48x48.jpg"  alt="冬季新款  韩版时尚修身气质仿貉子大毛领短款加厚保暖棉服" width="45" />
+					</a>
+					<a href="http://shop.mogujie.com/detail/1k4cvvy" target="_blank" class="underline title lt">冬季新款  韩版时尚修身气质仿貉子大毛领短款加厚保暖棉服</a>
+					<span class="price rt">￥49.91</span>
+					<span class="info lt">颜色：白色&nbsp;尺码：M</span>
+					<span class="del rt">删除</span>
+				</li>
+			</ul>
+			<div class="gotoCart">
+				<a href="shoppingCart.html" target="_blank" class="underline">查看购物车</a>
+			</div>
+		</div>
+		<ul id="customerSevice_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.mogujie.com/help" target="_blank">消费者服务</a></li>
+			<li class="lihover"><a href="http://service.xiaodian.com" target="_blank">商家服务</a></li>
+			<li class="lihover"><a href="http://www.mogujie.com/rule/index" target="_blank">规则中心</a></li>
+		</ul>
+		<ul id="myStore_child" class="nav_child1 nav_child">
+			<li class="lihover"><a href="http://www.xiaodian.com/pc/shopadmin/shopface" target="_blank">管理后台</a></li>
+			<li class="lihover"><a href="http://bbs.xiaodian.com" target="_blank">商家社区</a></li>
+			<li class="lihover"><a href="http://peixun.xiaodian.com" target="_blank">商家培训</a></li>
+			<li class="lihover"><a href="http://www.xiaodian.com/pc/joinmarket" target="_blank">市场入驻</a></li>
+		</ul>
+		<!--内容主体部分-->
+		<div id="container">
+			<div id="footprint_nav">
+				<div class="width">
+					<a href="" class="fp_logo">我的收藏</a>
+					<ul>
+						<li><a href="">收藏的店铺</a></li>
+						<li><a href="">收藏的商品</a></li>
+						<li class="thisPage"><a href="">足迹</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="footprint_wrap">
+				<div class="width">
+					<ul class="fpw_nav clear">
+						<li><a class="clickTitle" href="javascript:;"><span>全部商品</span></a></li>
+						<li><a class="" href="javascript:;">
+							<i style="background-position: -24px 0;"></i>
+							<span>服饰</span>
+						</a></li>
+						<li><a class="" href="javascript:;">
+							<i style="background-position: -125px 0;"></i>
+							<span>美妆</span>
+						</a></li>
+						<li><a class="" href="javascript:;">
+							<i style="background-position: -75px 0;"></i>
+							<span>家居</span>
+						</a></li>
+						<li><a class="" href="javascript:;">
+							<i style="background-position: -95px 0;"></i>
+							<span>配饰</span>
+						</a></li>
+						<li><a class="" href="javascript:;">
+							<i style="background-position: -24px 0;"></i>
+							<span>百货</span>
+						</a></li>
+						<li><a class="" href="javascript:;">
+							<i style="background-position: -0px 0;"></i>
+							<span>数码</span>
+						</a></li>
+						<li><a class="" href="javascript:;">
+							<i style="background-position: -48px 0;"></i>
+							<span>户外</span>
+						</a></li>
+						<li><a class="" href="javascript:;">
+							<i style="background-position: -110px 0;"></i>
+							<span>食品</span>
+						</a></li>
+						<li><a class="" href="javascript:;">
+							<i style="background-position: -141px 0;"></i>
+							<span>母婴</span>
+						</a></li>
+					</ul>
+					<div class="fpw_wrap width">
+						<div class="fpww_box">
+							<div class="fpww_con clear">
+								<div class="fpww_section">
+									<h3 class="clear"><b>今天</b></h3>
+								</div>
+								<div class="fpww_item">
+									<a class="fpwwi_image" href="">
+										<img src="img/footprint/footprintImage01_220x330.jpg"/>
+									</a>
+									<p class="fpwwi_title">【王妃家】新款简约清新可爱猴子大容量女士短款钱包学生钱夹皮夹</p>
+									<div class="fpwwi_info">
+										<span class="salePrice">￥35.00</span>
+										<span class="price">￥50.00</span>
+									</div>
+								</div>
+								<div class="fpww_item">
+									<a class="fpwwi_image" href="">
+										<img src="img/footprint/footprintImage02_220x330.jpg"/>
+									</a>
+									<p class="fpwwi_title">毛菇小象 秋冬装新款欧美风中长款毛呢外套女宽松长袖呢子大衣</p>
+									<div class="fpwwi_info">
+										<span class="salePrice">￥228.00</span>
+										<span class="price">￥456.00</span>
+									</div>
+								</div>
+								<div class="fpww_item">
+									<a class="fpwwi_image" href="">
+										<img src="img/footprint/footprintImage03_220x330.jpg"/>
+									</a>
+									<p class="fpwwi_title">艾尤 韩版学院风牛仔涂鸦印花图案渔夫帽潮户外运动盆帽男女帽子</p>
+									<div class="fpwwi_info">
+										<span class="salePrice">￥35.00</span>
+										<span class="price">￥50.00</span>
+									</div>
+								</div>
+								<div class="fpww_item">
+									<a class="fpwwi_image" href="">
+										<img src="img/footprint/footprintImage05_220x330.jpg"/>
+									</a>
+									<p class="fpwwi_title">上海特产冠生园大白兔奶糖礼盒生日圣诞节礼物喜糖果零食送女友</p>
+									<div class="fpwwi_info">
+										<span class="salePrice">￥17.55</span>
+										<span class="price">￥27.00</span>
+									</div>
+								</div>
+							</div>
+							<div class="fpww_con clear">
+								<div class="fpww_section">
+									<h3 class="clear"><b>2016-11-26</b></h3>
+								</div>
+								<div class="fpww_item">
+									<a class="fpwwi_image" href="">
+										<img src="img/footprint/footprintImage05_220x330.jpg"/>
+									</a>
+									<p class="fpwwi_title">上海特产冠生园大白兔奶糖礼盒生日圣诞节礼物喜糖果零食送女友</p>
+									<div class="fpwwi_info">
+										<span class="salePrice">￥17.55</span>
+										<span class="price">￥27.00</span>
+									</div>
+								</div>
+								<div class="fpww_item">
+									<a class="fpwwi_image" href="">
+										<img src="img/footprint/footprintImage06_220x330.jpg"/>
+									</a>
+									<p class="fpwwi_title">【下单立减5元】好手感 秋冬新款条纹仿羊绒流苏加厚围巾披肩</p>
+									<div class="fpwwi_info">
+										<span class="salePrice">￥42.00</span>
+										<span class="price">￥60.00</span>
+									</div>
+								</div>
+								<div class="fpww_item">
+									<a class="fpwwi_image" href="">
+										<img src="img/footprint/footprintImage07_220x330.jpg"/>
+									</a>
+									<p class="fpwwi_title">泰迪熊毛绒玩具抱抱熊公仔女生布娃娃大号熊熊猫抱枕儿童生日礼物</p>
+									<div class="fpwwi_info">
+										<span class="salePrice">￥49.35</span>
+										<span class="price">￥69.80</span>
+									</div>
+								</div>
+								<div class="fpww_item">
+									<a class="fpwwi_image" href="">
+										<img src="img/footprint/footprintImage08_220x330.jpg"/>
+									</a>
+									<p class="fpwwi_title">卡通抱枕被子两用棉麻折叠抱枕被多功能午睡靠枕汽车空调被</p>
+									<div class="fpwwi_info">
+										<span class="salePrice">￥49.70</span>
+										<span class="price">￥70.00</span>
+									</div>
+								</div>
+								<div class="fpww_item">
+									<a class="fpwwi_image" href="">
+										<img src="img/footprint/footprintImage09_220x330.jpg"/>
+									</a>
+									<p class="fpwwi_title">蘑菇优选  便捷式化妆刷散粉刷</p>
+									<div class="fpwwi_info">
+										<span class="salePrice">￥39.90</span>
+										<span class="price">￥39.90</span>
+									</div>
+								</div>
+							</div>
+							<div class="fpww_con clear">
+								<div class="fpww_section">
+									<h3 class="clear"><b>2016-11-20</b></h3>
+								</div>
+								<div class="fpww_item">
+									<a class="fpwwi_image" href="">
+										<img src="img/footprint/footprintImage10_220x330.jpg"/>
+									</a>
+									<p class="fpwwi_title">【yoka】明星同款 防滑兔耳朵加绒加厚保暖雪地靴短靴雪地棉</p>
+									<div class="fpwwi_info">
+										<span class="salePrice">￥128.00</span>
+										<span class="price">￥183.00</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--foot部分-->
+		<div id="footer">
+			<div id="footer_top" class="foot_width">
+				<ul>
+					<li id="footer_top_left">
+						<img src="img/index/logo_152x38.png" />
+						<div>营业执照注册号：<a href="">330106000129004</a><br />
+							增值电信业务经营许可证：<a href="">浙B2-20110349</a><br />
+							网络文化经营许可证：<a href="">浙网文（2016）0349-219号</a><br />
+							<a href="">安全责任书</a></div>
+						<div><a href=""><img src="http://s18.mogucdn.com/p1/160428/upload_ifrgemjwgq3gemzthazdambqmeyde_20x20.png" />浙公网安备 33010602002329号</a><br />
+         					©2016 Mogujie.com 杭州卷瓜网络有限公司</div>
+					</li>
+					<li class="footer_top_center">
+						<ul>
+							<li>公司</li>
+							<li><a href="">关于我们</a></li>
+							<li><a href="">招聘信息</a></li>
+							<li><a href="">联系我们</a></li>
+						</ul>
+					</li>
+					<li class="footer_top_center">
+						<ul>
+							<li>消费者</li>
+							<li><a href="">消费者服务</a></li>
+							<li><a href="">意见反馈</a></li>
+							<li><a href="">手机版下载</a></li>
+						</ul>
+					</li>
+					<li class="footer_top_center">
+						<ul>
+							<li>商家</li>
+							<li><a href="">商家入驻</a></li>
+							<li><a href="">商家后台</a></li>
+							<li><a href="">蘑菇商学院</a></li>
+							<li><a href="">商家社区</a></li>
+						</ul>
+					</li>
+					<li id="footer_top_right">
+						<a href=""><div>权威认证</div></a>
+						<a href=""><img src="img/index/footerpingan.png" /></a>
+						<a href=""><img src="img/index/footerkexin.png" /></a>
+					</li>
+				</ul>
+			</div>
+			<div id="footer_bottom" class="foot_width">
+				<ul>
+					<li>友情链接:</li>
+					<li><a href="">蘑菇街游戏</a></li>
+					<li><a href="">淘粉吧</a></li>
+					<li><a href="">穿衣搭配</a></li>
+					<li><a href="">蘑菇街男装</a></li>
+					<li><a href="">蘑菇街鞋子</a></li>
+					<li><a href="">蘑菇街泡泡</a></li>
+					<li><a href="">QQ钱包</a></li>
+					<li><a href="">家居网</a></li>
+					<li><a href="">时尚品牌网</a></li>
+					<li><a href="">装修</a></li>
+					<li><a href="">蘑菇街母婴</a></li>
+					<li><a href="">衣联网</a></li>
+					<li><a href="">播视网视频</a></li>
+					<li><a href="">慧聪网</a></li>
+				</ul>
+			</div>
+		</div>
+		<script src="js/rightBar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/topNav.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
